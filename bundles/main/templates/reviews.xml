@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" ?><templates xmlns:a="http://slcf/templates/settings/bem-scheme/additional" xmlns:b="http://slcf/templates/settings/bem-scheme/block" xmlns:d="http://slcf/templates/settings/bem-scheme/data" xmlns:e="http://slcf/templates/settings/bem-scheme/element" xmlns:p="http://slcf/templates/settings/bem-scheme/pointer" xmlns:m="http://slcf/templates/settings/bem-scheme/modification" xmlns:t="http://slcf/templates/settings/bem-scheme/template" xmlns:x="http://slcf/templates/settings/bem-scheme/xhtml" xmlns:un="http://slcf/templates/settings/bem-scheme/unknown-namespace" xmlns:alxc="http://slcf/templates/settings/bem-scheme/additional-legacy-xhtml-class">
 
-	<t:logo>
-		<b:logo>
-			<e:text><a:link/><cdata><![CDATA[Canal View B & B]]></cdata></e:text>
-		</b:logo>
-	</t:logo>
+	<t:section_content_reviews>
+		<b:section>
+			<m:viewtype val="standard"/>
+			<m:content val="reviews"/>
+			<e:header>
+				<e:title>
+					<a:heading>
+						<m:level val="3"/>
+						</a:heading>
+						<cdata><![CDATA[Reviews]]></cdata>
+				</e:title>
+			</e:header>
+			<e:body>
+				<a:pure-content/>
+				<p:content/>
+			</e:body>
+		</b:section>
+	</t:section_content_reviews>
 
 </templates>

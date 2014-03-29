@@ -16,5 +16,6 @@
 				extension-element-prefixes="exsl">
 
 	<xsl:import href="vendors/slcf-compiler/master.xsl" />
+	<xsl:import href="bundles/main/utilities/b-menu.xsl" />
 
 </xsl:stylesheet>

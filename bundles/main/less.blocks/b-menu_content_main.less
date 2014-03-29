@@ -1,0 +1,36 @@
+.b-menu {
+	&_content_main {
+
+		.b-menu__item {
+			margin:1px 0 0;
+
+			background:#da622e;
+			color:#fff;
+
+			&_state_selected {
+				color:#000;
+
+				.b-menu__item-text {
+
+					&:hover {
+						background:none;
+					}
+				}
+			}
+		}
+		.b-menu__item-text {
+			display:block;
+			padding:10px 20px;
+
+			&:hover {
+				background:rgba(255,255,255,.1);
+			}
+
+			&.b-link {
+				&:hover {
+					color:#000;
+				}
+			}
+		}
+	}
+}

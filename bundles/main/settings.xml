@@ -4,10 +4,15 @@
 	<include xmlns="http://www.w3.org/2001/XInclude" href="../../vendors/slcf-nano-core/html.blocks/default-semantic.xml"/>
 	<include xmlns="http://www.w3.org/2001/XInclude" href="html.blocks/default-semantic.xml"/>
 
-	<!--templates-->
+	<!-- templates -->
 	<include xmlns="http://www.w3.org/2001/XInclude" href="../../vendors/slcf-nano-core/templates/t__xdocument.xml"/>
 	<include xmlns="http://www.w3.org/2001/XInclude" href="../../vendors/slcf-nano-core/templates/layout.xml"/>
 	<include xmlns="http://www.w3.org/2001/XInclude" href="templates/templates.xml"/>
+	<include xmlns="http://www.w3.org/2001/XInclude" href="templates/layout.xml"/>
+	<include xmlns="http://www.w3.org/2001/XInclude" href="templates/menu.xml"/>
+	<include xmlns="http://www.w3.org/2001/XInclude" href="templates/reviews.xml"/>
 
+	<!-- data -->
+	<include xmlns="http://www.w3.org/2001/XInclude" href="data-sources/common.xml"/>
 
 </settings>

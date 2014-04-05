@@ -30,6 +30,7 @@
     "grunt-text-replace": "~0.3.11",
     "grunt-contrib-imagemin": "~0.4.1",
     "grunt-contrib-stylus": "~0.13.0",
-    "grunt-autoprefixer": ">=0.7.0"
+    "grunt-autoprefixer": ">=0.7.0",
+    "grunt-prettify": "^0.3.4"
   }
 }

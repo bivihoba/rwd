@@ -1,0 +1,23 @@
+.b-radio-button {
+	.font-reset();
+
+	.b-form-field-text {
+		display:inline-block;
+		vertical-align:top;
+	}
+
+	&_state_disabled .b-form-field-text {
+	}
+
+	&:hover {
+		.b-form-field_type_radio-button + .b-pseudo-radio-button-form-field {
+		}
+		.b-form-field_type_radio-button:checked + .b-pseudo-radio-button-form-field {
+		}
+		.b-form-field-box_state_disabled .b-pseudo-radio-button-form-field {
+			opacity:.5;
+		}
+		.b-form-field-box_state_disabled .b-form-field_type_radio-button:checked + .b-pseudo-radio-button-form-field {
+		}
+	}
+}

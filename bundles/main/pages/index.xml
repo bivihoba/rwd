@@ -18,7 +18,7 @@
 
 		<p:main>
 			<b:section>
-				<m:viewtype val="standard"/>
+				<m:viewtype val="main"/>
 				<e:header>
 					<e:title>
 						<a:heading>
@@ -53,6 +53,14 @@
 				]]>
 			</cdata>
 		</p:section_content_reviews>
+
+		Get 10% off your next subscription to any W3C training course
+		<p>Provide the promotion code "W3C_Rules" during your next subscription</p>
+
+		<p:javascript_body>
+			<b:xscript x:src="js/common.js"/>
+			<p:content/>
+		</p:javascript_body>
 
 	</templates>
 

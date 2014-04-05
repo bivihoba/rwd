@@ -1,0 +1,28 @@
+.b-form-field {
+	&_type_radio-button {
+		margin-left: 0;
+		padding-left:0;
+		padding-right:0;
+		position:absolute;
+		top:-2px;
+		left:0;
+
+		opacity:0;
+		-moz-appearance: none !important;
+		-webkit-appearance: none !important;
+
+		& + .b-pseudo-radio-button-form-field {
+			&:before {
+			}
+		}
+		&:checked + .b-pseudo-radio-button-form-field {
+			&:before {
+				color:inherit;
+				border-color:inherit;
+			}
+		}
+		&[disabled='disabled'] + .b-pseudo-radio-button-form-field {
+			opacity:.5;
+		}
+	}
+}

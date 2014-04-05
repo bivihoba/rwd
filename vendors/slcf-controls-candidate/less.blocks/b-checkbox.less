@@ -1,0 +1,23 @@
+.b-checkbox {
+	.font-reset();
+
+	.b-form-field-text {
+		display:inline-block;
+		vertical-align:top;
+	}
+
+	&_state_disabled .b-form-field-text {
+	}
+
+	&:hover {
+		.b-form-field_type_checkbox + .b-pseudo-checkbox-form-field {
+		}
+		.b-form-field_type_checkbox:checked + .b-pseudo-checkbox-form-field {
+		}
+		.b-form-field-box_state_disabled .b-pseudo-checkbox-form-field {
+			opacity:.5;
+		}
+		.b-form-field-box_state_disabled .b-form-field_type_checkbox:checked + .b-pseudo-checkbox-form-field {
+		}
+	}
+}

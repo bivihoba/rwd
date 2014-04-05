@@ -1,0 +1,13 @@
+.b-form-field {
+	&_type_textarea {
+		.box-sizing;
+		overflow:auto;
+		width:100%;
+		resize:vertical;
+
+		&.b-form-field[disabled="disabled"],
+		&.b-form-field_state_disabled {
+			color:@control-color;
+		}
+	}
+}

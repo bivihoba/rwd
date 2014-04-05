@@ -13,7 +13,7 @@
 
 		<p:main>
 			<b:section>
-				<m:viewtype val="standard"/>
+				<m:viewtype val="main"/>
 				<e:header>
 					<e:title>
 						<a:page-title/>
@@ -63,6 +63,7 @@
 					<m:type val="content"/>
 					<b:table-row>
 						<b:table-cell>
+							<m:content val="room"/>
 							Red Room
 						</b:table-cell>
 						<b:table-cell>
@@ -75,6 +76,7 @@
 					</b:table-row>
 					<b:table-row>
 						<b:table-cell>
+							<m:content val="room"/>
 							White Room
 						</b:table-cell>
 						<b:table-cell>
@@ -87,6 +89,7 @@
 					</b:table-row>
 					<b:table-row>
 						<b:table-cell>
+							<m:content val="room"/>
 							Golden Room
 						</b:table-cell>
 						<b:table-cell>

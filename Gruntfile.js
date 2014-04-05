@@ -25,6 +25,7 @@ module.exports = function(grunt) {
 		'buildProjectDev', [
 			'newer:copy:assetsToDev',					// Копируем картинки и другую парашу из __assets в dev
 			'bemxmlProject',							// Компилируем все страницы из BEMXML
+			'newer:prettify:dev',
 			'buildDeps',								// Собираем зависимости по технологиям
 			'buildUsedDeps',							// Чистим технологии, исходя их проиндексированных BEMXML-деревьев
 			'less:dev',									// Собираем стили из LESS-технологии

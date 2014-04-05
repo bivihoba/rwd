@@ -1,0 +1,23 @@
+.b-form-field-box {
+	&_state_focus {
+		#js & {
+			.b-form-field {
+				color:#000;
+			}
+		}
+	}
+	&_state_disabled {
+
+	}
+	&_state_blocked {
+		.b-form-field_type_textarea	{
+			border-color:transparent;
+			background:none;
+			resize:none;
+		}
+		.b-form-field_type_text {
+			color:inherit;
+		}
+		/*TODO for select field*/
+	}
+}

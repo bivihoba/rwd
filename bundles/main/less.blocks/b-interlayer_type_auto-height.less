@@ -1,0 +1,21 @@
+.b-interlayer {
+	&_type_auto-height {
+		position:relative;
+
+		&.b-interlayer_column_b {
+
+			&:before {
+				content:'';
+
+				position:absolute;
+				left:220px;
+				width:590px;
+				top:0;
+				bottom:0;
+
+				background:#fff;
+			}
+			.clearfix();
+		}
+	}
+}

@@ -13,7 +13,7 @@
 
 		<p:main>
 			<b:section>
-				<m:viewtype val="standard"/>
+				<m:viewtype val="main"/>
 				<e:header>
 					<e:title>
 						<a:heading>

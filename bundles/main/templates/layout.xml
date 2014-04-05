@@ -15,9 +15,10 @@
 	</t:stripe>
 
 	<t:stripe_content_header>
-		<p:stripe>
+		<b:stripe>
+			<m:content val="header"/>
 			<p:logo/>
-		</p:stripe>
+		</b:stripe>
 	</t:stripe_content_header>
 
 	<t:stripe_content_main>
@@ -26,8 +27,13 @@
 				<a:columns-layout>
 					<m:scheme val="a-b-c"/>
 					</a:columns-layout>
-				<p:column_content_menu/>
-				<p:column_content_main/>
+				<b:interlayer>
+					<m:type val="flow-breaker"/>
+					<m:type val="auto-height"/>
+					<m:column val="b"/>
+					<p:column_content_menu/>
+					<p:column_content_main/>
+				</b:interlayer>
 				<p:column_content_sidebar/>
 			</e:in>
 		</p:stripe>
@@ -54,7 +60,7 @@
 		<p:column>
 			<m:layout val="b"/>
 			<m:content val="main"/>
-			<e:in>
+			<e:in tag="main" x:role="main">
 				<p:main/>
 			</e:in>
 		</p:column>
@@ -64,7 +70,7 @@
 		<p:column>
 			<m:layout val="c"/>
 			<m:content val="sidebar"/>
-			<e:in>
+			<e:in tag="aside" x:role="complementary">
 				<p:sidebar/>
 			</e:in>
 		</p:column>

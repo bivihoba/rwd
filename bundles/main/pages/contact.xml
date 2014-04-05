@@ -13,11 +13,11 @@
 
 		<p:main>
 			<b:section>
-				<m:viewtype val="standard"/>
+				<m:viewtype val="main"/>
 				<e:header>
 					<e:title>
 						<a:page-title/>
-						<cdata><![CDATA[Contact Us]]></cdata>
+						<cdata><![CDATA[Contact&nbsp;Us]]></cdata>
 					</e:title>
 				</e:header>
 				<e:body>
@@ -41,12 +41,294 @@
 		</p:section_content_reviews>
 
 		<t:form_content_concts-us>
-
-			Name:
-			E-mail:
-			Arrival Date:
-			Departure Date:
-			Message: 	Type here
+			<b:form x:action="main__confirmation.html" x:method="post" x:role="form">
+				<m:viewtype val="standard"/>
+				<b:form-fields-group>
+					<e:title>Contact us</e:title>
+					<b:form-fields-list>
+						<a:form-fields-layout>
+							<m:type val="side-labels"/>
+							</a:form-fields-layout>
+						<m:content val="contact-us"/>
+						<e:item>
+							<b:form-field-composition>
+								<e:title>
+									<e:title-text>
+										<a:form-field-label x:for="fField-ContactUs-name"/>
+										Name:
+									</e:title-text>
+								</e:title>
+								<e:content>
+									<b:form-field-box>
+										<b:form-field
+												x:name="fField-ContactUs-name"
+												x:id="fField-ContactUs-name">
+											<m:type val="text"
+												x:size="30"/>
+										</b:form-field>
+									</b:form-field-box>
+								</e:content>
+							</b:form-field-composition>
+						</e:item>
+						<e:item>
+							<b:form-field-composition>
+								<e:title>
+									<e:title-text>
+										<a:form-field-label x:for="fField-ContactUs-email"/>
+										E-mail:
+									</e:title-text>
+								</e:title>
+								<e:content>
+									<b:form-field-box>
+										<b:form-field
+												x:name="fField-ContactUs-email"
+												x:id="fField-ContactUs-email">
+											<m:type val="text"
+												x:size="30"/>
+											<m:type val="email"/>
+										</b:form-field>
+									</b:form-field-box>
+								</e:content>
+							</b:form-field-composition>
+						</e:item>
+						<e:item>
+							<b:form-field-composition>
+								<e:title>
+									<e:title-text>
+										Arrival Date:
+									</e:title-text>
+								</e:title>
+								<e:content>
+									<b:form-field-box>
+										<m:type val="inline"/>
+										<b:form-field
+												x:name="fField-ContactUs-arrivalDate-month"
+												x:id="fField-ContactUs-arrivalDate-month"
+												x:placeholder="Type here">
+											<m:type val="select"/>
+											<e:option x:selected="selected">Selec Month</e:option>
+											<e:option>Jan</e:option>
+											<e:option>Feb</e:option>
+											<e:option>Mar</e:option>
+											<e:option>April</e:option>
+											<e:option>May</e:option>
+											<e:option>June</e:option>
+											<e:option>July</e:option>
+											<e:option>August</e:option>
+											<e:option>September</e:option>
+											<e:option>October</e:option>
+											<e:option>November</e:option>
+											<e:option>December</e:option>
+										</b:form-field>
+									</b:form-field-box>
+									<b:form-field-text> </b:form-field-text>
+									<b:form-field-box>
+										<m:type val="inline"/>
+										<b:form-field
+												x:name="fField-ContactUs-arrivalDate-day"
+												x:id="fField-ContactUs-arrivalDate-day"
+												x:placeholder="Type here">
+											<m:type val="select"/>
+											<e:option x:selected="selected">Selec Day</e:option>
+											<e:option>1</e:option>
+											<e:option>2</e:option>
+											<e:option>3</e:option>
+											<e:option>4</e:option>
+											<e:option>5</e:option>
+											<e:option>6</e:option>
+											<e:option>7</e:option>
+											<e:option>8</e:option>
+											<e:option>9</e:option>
+											<e:option>10</e:option>
+											<e:option>11</e:option>
+											<e:option>12</e:option>
+											<e:option>13</e:option>
+											<e:option>14</e:option>
+											<e:option>15</e:option>
+											<e:option>16</e:option>
+											<e:option>17</e:option>
+											<e:option>18</e:option>
+											<e:option>19</e:option>
+											<e:option>20</e:option>
+											<e:option>21</e:option>
+											<e:option>22</e:option>
+											<e:option>23</e:option>
+											<e:option>24</e:option>
+											<e:option>25</e:option>
+											<e:option>26</e:option>
+											<e:option>27</e:option>
+											<e:option>28</e:option>
+											<e:option>29</e:option>
+											<e:option>30</e:option>
+											<e:option>31</e:option>
+										</b:form-field>
+									</b:form-field-box>
+									<b:form-field-text> </b:form-field-text>
+									<b:form-field-box>
+										<m:type val="inline"/>
+										<b:form-field
+												x:name="fField-ContactUs-arrivalDate-year"
+												x:id="fField-ContactUs-arrivalDate-year"
+												x:placeholder="Type here">
+											<m:type val="select"/>
+											<e:option x:selected="selected">Selec year</e:option>
+											<e:option>2011</e:option>
+											<e:option>2012</e:option>
+											<e:option>2013</e:option>
+											<e:option>2014</e:option>
+											<e:option>2015</e:option>
+											<e:option>2016</e:option>
+											<e:option>2017</e:option>
+										</b:form-field>
+									</b:form-field-box>
+								</e:content>
+							</b:form-field-composition>
+						</e:item>
+						<e:item>
+							<b:form-field-composition>
+								<e:title>
+									<e:title-text>
+										Departure Date:
+									</e:title-text>
+								</e:title>
+								<e:content>
+									<b:form-field-box>
+										<m:type val="inline"/>
+										<b:form-field
+												x:name="fField-ContactUs-departureDate-month"
+												x:id="fField-ContactUs-departureDate-month"
+												x:placeholder="Type here">
+											<m:type val="select"/>
+											<e:option x:selected="selected">Selec Month</e:option>
+											<e:option>Jan</e:option>
+											<e:option>Feb</e:option>
+											<e:option>Mar</e:option>
+											<e:option>April</e:option>
+											<e:option>May</e:option>
+											<e:option>June</e:option>
+											<e:option>July</e:option>
+											<e:option>August</e:option>
+											<e:option>September</e:option>
+											<e:option>October</e:option>
+											<e:option>November</e:option>
+											<e:option>December</e:option>
+										</b:form-field>
+									</b:form-field-box>
+									<b:form-field-text> </b:form-field-text>
+									<b:form-field-box>
+										<m:type val="inline"/>
+										<b:form-field
+												x:name="fField-ContactUs-departureDate-day"
+												x:id="fField-ContactUs-departureDate-day"
+												x:placeholder="Type here">
+											<m:type val="select"/>
+											<e:option x:selected="selected">Selec Day</e:option>
+											<e:option>1</e:option>
+											<e:option>2</e:option>
+											<e:option>3</e:option>
+											<e:option>4</e:option>
+											<e:option>5</e:option>
+											<e:option>6</e:option>
+											<e:option>7</e:option>
+											<e:option>8</e:option>
+											<e:option>9</e:option>
+											<e:option>10</e:option>
+											<e:option>11</e:option>
+											<e:option>12</e:option>
+											<e:option>13</e:option>
+											<e:option>14</e:option>
+											<e:option>15</e:option>
+											<e:option>16</e:option>
+											<e:option>17</e:option>
+											<e:option>18</e:option>
+											<e:option>19</e:option>
+											<e:option>20</e:option>
+											<e:option>21</e:option>
+											<e:option>22</e:option>
+											<e:option>23</e:option>
+											<e:option>24</e:option>
+											<e:option>25</e:option>
+											<e:option>26</e:option>
+											<e:option>27</e:option>
+											<e:option>28</e:option>
+											<e:option>29</e:option>
+											<e:option>30</e:option>
+											<e:option>31</e:option>
+										</b:form-field>
+									</b:form-field-box>
+									<b:form-field-text> </b:form-field-text>
+									<b:form-field-box>
+										<m:type val="inline"/>
+										<b:form-field
+												x:name="fField-ContactUs-departureDate-year"
+												x:id="fField-ContactUs-departureDate-year"
+												x:placeholder="Type here">
+											<m:type val="select"/>
+											<e:option x:selected="selected">Selec year</e:option>
+											<e:option>2011</e:option>
+											<e:option>2012</e:option>
+											<e:option>2013</e:option>
+											<e:option>2014</e:option>
+											<e:option>2015</e:option>
+											<e:option>2016</e:option>
+											<e:option>2017</e:option>
+										</b:form-field>
+									</b:form-field-box>
+								</e:content>
+							</b:form-field-composition>
+						</e:item>
+						<e:item>
+							<b:form-field-composition>
+								<e:title>
+									<e:title-text>
+										<a:form-field-label x:for="fField-ContactUs-email"/>
+										Message:
+									</e:title-text>
+								</e:title>
+								<e:content>
+									<b:form-field-box>
+										<b:form-field
+												x:name="fField-ContactUs-email"
+												x:id="fField-ContactUs-email">
+											<m:type val="text"
+												x:placeholder="Type here"
+												x:cols="28"
+												x:rows="5"
+												/>
+											<m:type val="textarea"/>
+										</b:form-field>
+									</b:form-field-box>
+								</e:content>
+							</b:form-field-composition>
+						</e:item>
+						<e:item>
+							<m:content val="submit"/>
+							<b:form-field-composition>
+								<m:content val="submit"/>
+								<e:content>
+									<b:form-field-box>
+										<b:form-field
+												x:value="Proceed">
+											<m:type val="submit"/>
+										</b:form-field>
+									</b:form-field-box>
+								</e:content>
+							</b:form-field-composition>
+							<b:form-field-composition>
+								<m:content val="reset"/>
+								<e:content>
+									<b:form-field-box>
+										<b:form-field
+												x:value="Cancel">
+											<m:type val="reset"/>
+										</b:form-field>
+									</b:form-field-box>
+								</e:content>
+							</b:form-field-composition>
+						</e:item>
+					</b:form-fields-list>
+				</b:form-fields-group>
+			</b:form>
 
 		</t:form_content_concts-us>
 

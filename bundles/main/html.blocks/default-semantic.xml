@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?><default-semantic xmlns:a="http://slcf/templates/settings/bem-scheme/additional" xmlns:b="http://slcf/templates/settings/bem-scheme/block" xmlns:d="http://slcf/templates/settings/bem-scheme/data" xmlns:e="http://slcf/templates/settings/bem-scheme/element" xmlns:p="http://slcf/templates/settings/bem-scheme/pointer" xmlns:m="http://slcf/templates/settings/bem-scheme/modification" xmlns:t="http://slcf/templates/settings/bem-scheme/template" xmlns:x="http://slcf/templates/settings/bem-scheme/xhtml" xmlns:un="http://slcf/templates/settings/bem-scheme/unknown-namespace" xmlns:alxc="http://slcf/templates/settings/bem-scheme/additional-legacy-xhtml-class">
 
+	<!--<m:content val="viewport" block="xmeta" x:name="viewport" x:content="width=device-width, initial-scale=1.0"/>-->
+
+	<m:content val="description" block="xmeta" x:name="description" x:content="Canal View B &amp; B"/>
+	<m:content val="keywords" block="xmeta" x:name="keywords" x:content="Canal View B &amp; B"/>
+
 	<b:section tag="section"/>
 	<e:header block="section" tag="header"/>
-
-	<b:menu tag="nav"/>
-	<e:list block="menu" tag="ul"/>
 
 	<!--table > -->
 	<b:table tag="table"/>
@@ -18,5 +20,56 @@
 		<e:colgroup block="table" tag="colgroup"/>
 		<e:col block="table" tag="col"/>
 	<!--table <-->
+
+	<e:title block="story" tag="h4"/>
+	<e:summary block="story" tag="p"/>
+	<b:newline tag="span"/>
+
+	<!-- menu > -->
+	<b:menu tag="nav" x:role="navigation"/>
+	<e:list block="menu" tag="ul"/>
+	<e:item-text block="menu" tag="a"/>
+	<!-- menu < -->
+
+	<!-- stripe > -->
+	<m:content val="header" block="stripe" tag="header" x:role="banner"/>
+	<m:content val="footer" block="stripe" tag="footer" x:role="contentinfo"/>
+	<!-- stripe < -->
+
+	<b:break-line tag="br"/>
+	<b:paragraph tag="p"/>
+
+	<!--abstract list > -->
+	<b:list tag="ul"/>
+		<e:item-caption block="list" tag="span"/>
+		<e:item-hash block="list" tag="span"/>
+		<e:item-property block="list" tag="span"/>
+		<!--<e:item-text block="list" tag="span"/>-->
+		<e:item-delimeter block="list" tag="span"/>
+	<!--abstract list < -->
+
+	<!--form-fields-group > -->
+	<b:form-fields-group tag="fieldset" />
+		<e:title block="form-fields-group" tag="legend"/>
+	<!--form-fields-group < -->
+
+	<!--form-fields-list > -->
+	<b:form-fields-list tag="ul"/>
+	<!--form-fields-list < -->
+
+	<!--field-composition > -->
+	<b:form-field-composition tag="dl"/>
+		<e:title block="form-field-composition" tag="dt"/>
+		<e:title-text block="form-field-composition" tag="span"/>
+		<e:content block="form-field-composition" tag="dd"/>
+	<!--field-composition < -->
+
+	<m:content val="form-field" block="billet" tag="label"/>
+	<b:form-field-remark tag="small"/>
+	<b:required-field-symbol tag="small"/>
+	<b:form-field-intro tag="span"/>
+	<b:form-field-text tag="span"/>
+
+	<m:type val="number" block="form-field" x:type="text" x:pattern="[0-9]*"/><!-- TODO pull-request to slcf-nano-core-->
 
 </default-semantic>

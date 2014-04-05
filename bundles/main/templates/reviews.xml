@@ -2,7 +2,7 @@
 
 	<t:section_content_reviews>
 		<b:section>
-			<m:viewtype val="standard"/>
+			<m:viewtype val="aside"/>
 			<m:content val="reviews"/>
 			<e:header>
 				<e:title>

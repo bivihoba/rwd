@@ -1,25 +1,39 @@
 .b-section {
 	&_content_main-menu {
-//		border:1px solid #000;
 
 		.b-section__header {
+			position:relative;
+
+			margin:0 0 42px;
+			padding:10px 0;
+
 			background:#da622e;
-			margin:0;
-//			margin:0 0 40px;
-			padding:10px 0 40px;
+
+			&:after {
+				content:'';
+
+				display:block;
+				height:40px;
+
+				position:absolute;
+				top:100%;
+				left:0;
+				right:0;
+
+				margin:1px 0 0;
+
+				background:#da622e;
+			}
 		}
 		.b-section__title {
 			display:block;
 
-			color:#fff;
+			padding:0 20px;
+
 			font:bold 16px/20px @default-font-family;
 			text-transform:uppercase;
 
-			padding:0 20px 10px;
-			border-bottom:1px solid #216b9a;
-
-		}
-		.b-section__body {
+			color:#fff;
 		}
 
 		.b-link {

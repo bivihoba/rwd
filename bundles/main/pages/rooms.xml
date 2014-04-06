@@ -44,14 +44,20 @@
 		</p:main>
 
 		<p:section_content_reviews>
-			<cdata>
-				<![CDATA[
-				<p>It&nbsp;is&nbsp;a&nbsp;wonderful place in&nbsp;a&nbsp;quiet inner court close to&nbsp;the busy Rialto bridge.
-				 Only a&nbsp;few minutes walk from the vapporetto stop. Very spacious room and bathroom in&nbsp;old buildin.
-				  And next to&nbsp;this a&nbsp;very attentive and welcoming staff.
-				 Could not be&nbsp;better and will recommend Corte 1321 to&nbsp;anyone visiting Venice. Andy Irish</p>
-				]]>
-			</cdata>
+			<a:review block="true">
+				<m:viewtype val="aside"/>
+				</a:review>
+			<e:content>
+				<cdata>
+					<![CDATA[
+					<p>It&nbsp;is&nbsp;a&nbsp;wonderful place in&nbsp;a&nbsp;quiet inner court close to&nbsp;the busy Rialto bridge.
+					 Only a&nbsp;few minutes walk from the vapporetto stop. Very spacious room and bathroom in&nbsp;old buildin.
+					  And next to&nbsp;this a&nbsp;very attentive and welcoming staff.
+					 Could not be&nbsp;better and will recommend Corte 1321 to&nbsp;anyone visiting Venice.</p>
+					]]>
+				</cdata>
+			</e:content>
+			<e:author>Andy Irish</e:author>
 		</p:section_content_reviews>
 
 	</templates>

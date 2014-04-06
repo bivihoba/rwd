@@ -27,13 +27,20 @@
 		</p:main>
 
 		<p:section_content_reviews>
-			<cdata>
-				<![CDATA[
-				<p>We&nbsp;had a&nbsp;fantastic stay at&nbsp;Canal View B&amp;B for our honeymoon.
-				 The staff was great, really helpful and the room was absolutely lovely. Lea Frost</p>
-				]]>
-			</cdata>
+			<a:review block="true">
+				<m:viewtype val="aside"/>
+				</a:review>
+			<e:content>
+				<cdata>
+					<![CDATA[
+					<p>We&nbsp;had a&nbsp;fantastic stay at&nbsp;Canal View B&amp;B for our honeymoon.
+					 The staff was great, really helpful and the room was absolutely lovely. </p>
+					]]>
+				</cdata>
+			</e:content>
+			<e:author>Lea Frost</e:author>
 		</p:section_content_reviews>
+
 
 		<t:table_content_prices>
 			<b:table>

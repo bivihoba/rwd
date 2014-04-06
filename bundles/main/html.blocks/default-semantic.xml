@@ -78,4 +78,7 @@
 	<e:caption block="table" tag="caption"/>
 	<b:logo tag="h2"/>
 
+	<e:content block="review" tag="blockquote"/>
+	<e:author block="review" tag="cite"/>
+
 </default-semantic>

@@ -36,15 +36,22 @@
 		</p:main>
 
 		<p:section_content_reviews>
-			<cdata>
-				<![CDATA[
-				<p>I&nbsp;just wanted to&nbsp;let you know what a&nbsp;wonderful time we&nbsp;had at&nbsp;your&nbsp;B&nbsp;and&nbsp;B.
-				 I&nbsp;have visited Venice many times, but yours is&nbsp;a&nbsp;wonderful place to&nbsp;stay,
-				  its my&nbsp;new favorite and&nbsp;I will be&nbsp;sure to&nbsp;recommend it&nbsp;to&nbsp;my&nbsp;fellow
-				  professors travelling in&nbsp;Venice.Venice may not have oysters, but your place is&nbsp;a&nbsp;pearl.
-				Brad Clarke</p>
-				]]>
-			</cdata>
+			<a:review block="true">
+				<m:viewtype val="aside"/>
+				</a:review>
+			<e:content>
+				<cdata>
+					<![CDATA[
+					<p>
+					I&nbsp;just wanted to&nbsp;let you know what a&nbsp;wonderful time we&nbsp;had at&nbsp;your&nbsp;B&nbsp;and&nbsp;B.
+					I&nbsp;have visited Venice many times, but yours is&nbsp;a&nbsp;wonderful place to&nbsp;stay,
+					 its my&nbsp;new favorite and&nbsp;I will be&nbsp;sure to&nbsp;recommend it&nbsp;to&nbsp;my&nbsp;fellow
+					  professors travelling in&nbsp;Venice.Venice may not have oysters, but your place is&nbsp;a&nbsp;pearl.
+					</p>
+					]]>
+				</cdata>
+			</e:content>
+			<e:author>Brad Clarke</e:author>
 		</p:section_content_reviews>
 
 	</templates>

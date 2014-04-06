@@ -50,7 +50,7 @@ img {
   font: 0/0 'softline', a;
 }
 .b-form-field-composition__title-text {
-  font: 14px/22px 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  font: 14px/22px 'Lucida Sans Unicode', 'Lucida Grande', Verdana, Helvetica, Arial, sans-serif;
   display: inline-block;
   vertical-align: top;
 }
@@ -143,7 +143,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   margin: 0;
   padding: 29px 0;
   color: #fff;
-  font: bold 100px/1 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  font: bold 100px/1 'Lucida Sans Unicode', 'Lucida Grande', Verdana, Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-align: center;
 }
@@ -223,7 +223,7 @@ body {
   min-height: 100%;
   margin: 0;
   position: relative;
-  font: 16px/20px 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  font: 16px/20px 'Lucida Sans Unicode', 'Lucida Grande', Verdana, Helvetica, Arial, sans-serif;
   background: #0d5a92;
   color: #fff;
 }
@@ -313,7 +313,7 @@ body {
   padding-bottom: 8px;
 }
 .b-form_viewtype_standard .b-form-field-composition__title-text {
-  font: bold 16px/20px 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  font: bold 16px/20px 'Lucida Sans Unicode', 'Lucida Grande', Verdana, Helvetica, Arial, sans-serif;
 }
 .b-form_viewtype_standard .b-form-field-box {
   max-width: 300px;
@@ -334,7 +334,7 @@ body {
   height: 16px;
   width: 16px;
   padding: 0 0 4px 4px;
-  font: 16px/1 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  font: 16px/1 'Lucida Sans Unicode', 'Lucida Grande', Verdana, Helvetica, Arial, sans-serif;
   text-align: center;
   background: #36BC98;
   color: #000;
@@ -377,7 +377,7 @@ body {
 }
 .b-popup_viewtype_standard-sticky-bottom-edge .b-popup__title {
   margin: 0;
-  font: 14px/18px 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  font: 14px/18px 'Lucida Sans Unicode', 'Lucida Grande', Verdana, Helvetica, Arial, sans-serif;
   color: #36BC98;
 }
 .b-popup_viewtype_standard-sticky-bottom-edge .b-popup__title:after {
@@ -393,7 +393,7 @@ body {
 }
 .b-popup_viewtype_standard-sticky-bottom-edge .b-popup__body {
   margin: 0;
-  font: 14px/18px 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  font: 14px/18px 'Lucida Sans Unicode', 'Lucida Grande', Verdana, Helvetica, Arial, sans-serif;
   text-align: center;
   background: #333;
   background: rgba(0, 0, 0, 0.9);
@@ -405,12 +405,12 @@ body {
 .b-section_viewtype_aside .b-section__title {
   margin: 0 0 16px;
   color: #166ba1;
-  font: bold 16px/20px 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  font: bold 16px/20px 'Lucida Sans Unicode', 'Lucida Grande', Verdana, Helvetica, Arial, sans-serif;
 }
 .b-section_viewtype_main .b-section__title {
   margin: 0 0 16px;
   color: #166ba1;
-  font: bold 16px/20px 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  font: bold 16px/20px 'Lucida Sans Unicode', 'Lucida Grande', Verdana, Helvetica, Arial, sans-serif;
   text-transform: uppercase;
 }
 .b-table_viewtype_gray {
@@ -520,7 +520,7 @@ body {
 .b-section_content_main-menu .b-section__title {
   display: block;
   padding: 0 20px;
-  font: bold 16px/20px 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  font: bold 16px/20px 'Lucida Sans Unicode', 'Lucida Grande', Verdana, Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: #fff;
 }
@@ -532,7 +532,7 @@ body {
   color: #0099ff;
 }
 .b-section_content_reviews .b-section__body {
-  font: 13px/17px 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  font: 13px/17px 'Lucida Sans Unicode', 'Lucida Grande', Verdana, Helvetica, Arial, sans-serif;
 }
 .b-table_content_prices {
   min-width: 450px;

@@ -2,7 +2,7 @@
 
 	<t:logo>
 		<b:logo>
-			<e:text><a:link/><cdata><![CDATA[Canal View B&nbsp;&&nbsp;B]]></cdata></e:text>
+			<e:text><a:link x:href="main__index.html" x:title="Go to Home"/><cdata><![CDATA[Canal View B&nbsp;&&nbsp;B]]></cdata></e:text>
 		</b:logo>
 	</t:logo>
 

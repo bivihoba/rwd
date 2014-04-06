@@ -41,7 +41,7 @@
 		</p:section_content_reviews>
 
 		<t:form_content_concts-us>
-			<b:form x:action="main__confirmation.html" x:method="post" x:role="form">
+			<b:form x:action="main__confirmation.html" x:role="form">
 				<m:viewtype val="standard"/>
 				<b:form-fields-group>
 					<e:title>Contact us</e:title>

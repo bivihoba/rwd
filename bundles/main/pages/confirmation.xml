@@ -5,11 +5,11 @@
 	</project>
 
 	<meta>
-		<title>Contact</title>
+		<title>Operation Completed</title>
 	</meta>
 
 	<templates>
-		<t:xtitle><cdata><![CDATA[Contact Us - Canal View B & B]]></cdata></t:xtitle>
+		<t:xtitle><cdata><![CDATA[Operation Completed - Canal View B & B]]></cdata></t:xtitle>
 
 		<p:main>
 			<b:section>

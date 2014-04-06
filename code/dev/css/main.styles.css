@@ -143,7 +143,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   margin: 0;
   padding: 29px 0;
   color: #fff;
-  font: bold 100px/1 'Lucida Sans Unicode', 'Lucida Grande', Verdana, Helvetica, Arial, sans-serif;
+  font: bold 100px/1 'Lucida Sans Unicode', 'Lucida Grande', Arial, Ubuntu, sans-serif;
   text-transform: uppercase;
   text-align: center;
 }
@@ -405,12 +405,12 @@ body {
 .b-section_viewtype_aside .b-section__title {
   margin: 0 0 16px;
   color: #166ba1;
-  font: bold 16px/20px 'Lucida Sans Unicode', 'Lucida Grande', Verdana, Helvetica, Arial, sans-serif;
+  font: bold 16px/20px 'Lucida Sans Unicode', 'Lucida Grande', Arial, Ubuntu, sans-serif;
 }
 .b-section_viewtype_main .b-section__title {
   margin: 0 0 16px;
   color: #166ba1;
-  font: bold 16px/20px 'Lucida Sans Unicode', 'Lucida Grande', Verdana, Helvetica, Arial, sans-serif;
+  font: bold 16px/20px 'Lucida Sans Unicode', 'Lucida Grande', Arial, Ubuntu, sans-serif;
   text-transform: uppercase;
 }
 .b-table_viewtype_gray {

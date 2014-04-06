@@ -9,7 +9,8 @@ module.exports = {
 			cwd: 'code/dev/',
 			src: [
 				'css/*styles.css',
-				'!css/*styles.ie*.css'
+				'css/*styles.*.css',
+				'!css/*styles.ie7.css'
 				],
 			dest: 'code/production/',
 			rename: function(dest, matchedSrcPath, options) {

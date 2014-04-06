@@ -1,6 +1,4 @@
-SLCF Boilerplate
+Responsive Web Design - March 2014
 ====================
 
-File structure for SLCF-projects.
-
-[About SLCF (RU)](https://github.com/bivihoba/slcf-docs)
+Assignments

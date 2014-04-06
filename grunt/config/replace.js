@@ -23,6 +23,10 @@ module.exports = {
 			{
 				from: ' xmlns:d=\"http:\/\/slcf\/templates\/settings\/bem-scheme\/data\"',
 				to: ''
+			},
+			{
+				from: ' xml:lang=\"ru\">',
+				to: '>'
 			}
 		]
 	},
@@ -33,6 +37,10 @@ module.exports = {
 			{
 				from: '.styles.css',
 				to:'.template_styles.css'
+			},
+			{
+				from: '.styles.ie8.css',
+				to:'.template_styles.ie8.css'
 			}
 		]
 	}

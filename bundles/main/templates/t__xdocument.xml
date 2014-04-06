@@ -6,9 +6,8 @@
 		<b:xmeta><m:content val="charset"/></b:xmeta>
 		<e:title><p:xtitle>Page Title</p:xtitle></e:title>
 		<p:xmeta/>
-
-		<cdata><![CDATA[<script type="text/javascript">document.documentElement.id = "js";</script>]]></cdata>
 		<b:xlink><m:favicon/></b:xlink>
+		<cdata><![CDATA[<script type="text/javascript">document.documentElement.id = "js";</script>]]></cdata>
 		<p:xstyles/><p:javascript_head/>
 	</e:head>
 	<e:body>
@@ -18,32 +17,34 @@
 </b:xdocument>
 </t:xdocument>
 
-	<t:xmeta>
-		<p:xmeta_content_description/>
-		<p:xmeta_content_keywords/>
-		<p:xmeta_content_viewport/>
-		<cdata><![CDATA[<!--[if IE ]>]]></cdata>
-			<b:xmeta><m:content val="imagetoolbar"/></b:xmeta>
-			<b:xmeta><m:content val="user-agent"/></b:xmeta>
-		<cdata><![CDATA[<![endif]-->]]></cdata>
-	</t:xmeta>
-	<t:xmeta_content_keywords><b:xmeta><m:content val="keywords"/></b:xmeta></t:xmeta_content_keywords>
-	<t:xmeta_content_description><b:xmeta><m:content val="description"/></b:xmeta></t:xmeta_content_description>
-	<t:xmeta_content_viewport><b:xmeta><m:content val="viewport"/></b:xmeta></t:xmeta_content_viewport>
+<t:xmeta>
+	<p:xmeta_content_description/>
+	<p:xmeta_content_keywords/>
+	<p:xmeta_content_viewport/>
+	<cdata><![CDATA[<!--[if IE ]>]]></cdata>
+	<b:xmeta><m:content val="user-agent"/></b:xmeta>
+	<cdata><![CDATA[<![endif]-->]]></cdata>
+</t:xmeta>
+<t:xmeta_content_keywords><b:xmeta><m:content val="keywords"/></b:xmeta></t:xmeta_content_keywords>
+<t:xmeta_content_description><b:xmeta><m:content val="description"/></b:xmeta></t:xmeta_content_description>
+<t:xmeta_content_viewport><b:xmeta><m:content val="viewport"/></b:xmeta></t:xmeta_content_viewport>
 
 <t:xtitle><p:content/></t:xtitle>
 
 <t:xstyles>
 	<b:xlink x:href="css/main.styles.css"><m:style/></b:xlink>
+	<cdata><![CDATA[<!--[if IE 8 ]>]]></cdata>
+	<b:xlink x:href="css/main.styles.ie8.css"><m:style/></b:xlink>
+	<cdata><![CDATA[<![endif]-->]]></cdata>
 	<p:content/>
 </t:xstyles>
 
-	<t:javascript_head>
-		<cdata><![CDATA[<!--[if lt IE 9 ]>]]></cdata>
-		<b:xscript x:src="js/html5shiv.js"/>
-		<cdata><![CDATA[<![endif]-->]]></cdata>
-		<p:content/>
-	</t:javascript_head>
+<t:javascript_head>
+	<cdata><![CDATA[<!--[if lt IE 9 ]>]]></cdata>
+	<b:xscript x:src="js/html5shiv.js"/>
+	<cdata><![CDATA[<![endif]-->]]></cdata>
+	<p:content/>
+</t:javascript_head>
 
 	<t:javascript_body>
 		<p:content/>

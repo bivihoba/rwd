@@ -94,13 +94,7 @@
 					<m:type val="main"/>
 					<e:section-text block="cut">
 						<e:body tag="p">
-
-							Provide the promotion code
-							<cdata><![CDATA[&ldquo;]]></cdata><b:promo-code>W3C_Rules</b:promo-code><cdata><![CDATA[&rdquo;]]></cdata>
-
-							during your next subscription
-
-
+							Provide the promotion code <cdata><![CDATA[&ldquo;]]></cdata><b:promo-code tag="em">W3C_Rules</b:promo-code><cdata><![CDATA[&rdquo;]]></cdata> during your next subscription.
 						</e:body>
 					</e:section-text>
 				</e:section>

@@ -6,6 +6,7 @@
 			<p:stripe_content_main/>
 			<p:content/>
 		</b:page>
+		<b:page-background/>
 	</t:page>
 
 	<t:stripe>

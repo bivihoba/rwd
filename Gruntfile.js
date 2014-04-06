@@ -38,6 +38,7 @@ module.exports = function(grunt) {
 			'newer:copy:htmlToProduction',				// Копируем html-файлы из dev в production
 			'replace:renameCSS_ProductionFiles',		// В html-файлах из production меняем имена в путях к CSS-файлам
 			'newer:copy:assetsToProduction',			// Копируем картинки и другую парашу из dev в production
+			'newer:replace:fixProductionLinks',
 			'csso:production',							// Оптимизируем production-стили через csso
 			'newer:imagemin:production'					// Оптимизируем картинки
 		]

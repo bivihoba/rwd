@@ -73,10 +73,8 @@ module.exports = {
 			cwd: 'code/dev/',
 			src: '*.html',
 			dest: 'code/production/',
-			options: {
-				process: function (content, srcpath) {
-					return content.replace('href=\"css\/styles',"href=\"css\/template_styles");
-				}
+			rename: function(dest, src) {
+				return dest + src.replace('main__', '');
 			}
 		}]
 	}

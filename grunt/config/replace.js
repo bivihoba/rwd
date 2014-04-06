@@ -43,5 +43,17 @@ module.exports = {
 				to:'.template_styles.ie8.css'
 			}
 		]
+	},
+	fixProductionLinks: {
+		src: [
+				'code/production/*.html'
+		],
+		overwrite: true,
+		replacements: [
+			{
+				from: 'href="main__',
+				to:'href="'
+			}
+		]
 	}
 };

@@ -229,6 +229,7 @@ body {
   margin: 0;
   position: relative;
   font: 16px/20px 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  background: #0d5a92;
 }
 .b-form-field-box_type_inline {
   width: auto;

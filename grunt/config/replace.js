@@ -25,7 +25,7 @@ module.exports = {
 				to: ''
 			},
 			{
-				from: ' xml:lang=\"ru\">',
+				from: ' xml:lang=\"en\">',
 				to: '>'
 			}
 		]

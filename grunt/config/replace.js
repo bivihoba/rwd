@@ -53,6 +53,10 @@ module.exports = {
 			{
 				from: 'href="main__',
 				to:'href="'
+			},
+			{
+				from: 'action="main__',
+				to:'action="'
 			}
 		]
 	}

@@ -12,6 +12,7 @@
 
 				.b-menu__item-text {
 
+					&:focus,
 					&:hover {
 						background:none;
 					}
@@ -22,11 +23,15 @@
 			display:block;
 			padding:10px 20px;
 
+			outline:none;
+
+			&:focus,
 			&:hover {
 				background:rgba(255,255,255,.1);
 			}
 
 			&.b-link {
+				&:focus,
 				&:hover {
 					color:#000;
 				}

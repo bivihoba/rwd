@@ -7,6 +7,7 @@
 	<!-- templates -->
 	<include xmlns="http://www.w3.org/2001/XInclude" href="../../vendors/slcf-nano-core/templates/t__xdocument.xml"/>
 	<include xmlns="http://www.w3.org/2001/XInclude" href="../../vendors/slcf-nano-core/templates/layout.xml"/>
+	<include xmlns="http://www.w3.org/2001/XInclude" href="templates/t__xdocument.xml"/>
 	<include xmlns="http://www.w3.org/2001/XInclude" href="templates/templates.xml"/>
 	<include xmlns="http://www.w3.org/2001/XInclude" href="templates/layout.xml"/>
 	<include xmlns="http://www.w3.org/2001/XInclude" href="templates/menu.xml"/>

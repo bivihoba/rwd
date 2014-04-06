@@ -13,17 +13,23 @@
 		<t:xtitle><cdata><![CDATA[Canal View B & B]]></cdata></t:xtitle>
 
 		<t:logo>
-			<b:logo tag="h1"><cdata><![CDATA[Canal View B & B]]></cdata></b:logo>
+			<b:logo><cdata><![CDATA[Canal View B&nbsp;&&nbsp;B]]></cdata></b:logo>
 		</t:logo>
+
+		<p:page>
+			<m:content val="index"/>
+			<p:popup_content_sticky-subscription/>
+		</p:page>
 
 		<p:main>
 			<b:section>
-				<m:viewtype val="main"/>
-				<e:header>
+				<m:viewtype val="main" tag="div"/>
+				<e:header tag="div">
 					<e:title>
-						<a:heading>
-							<m:level val="2"/>
-							</a:heading>
+						<a:page-title/>
+						<!--<a:heading>-->
+							<!--<m:level val="2"/>-->
+							<!--</a:heading>-->
 						<cdata><![CDATA[LOW COST ROMANTIC&nbsp;VENICE]]></cdata>
 					</e:title>
 				</e:header>
@@ -54,10 +60,55 @@
 			</cdata>
 		</p:section_content_reviews>
 
-		Get 10% off your next subscription to any W3C training course
-		<p>Provide the promotion code "W3C_Rules" during your next subscription</p>
+		<t:popup_content_sticky-subscription>
+			<b:popup x:role="complementary">
+				<m:viewtype val="standard-sticky-bottom-edge"/>
+				<m:content val="sticky-subscription"/>
+				<m:state val="opened"/>
+
+				<a:cut>
+					<m:type val="addition"/>
+					<m:state val="collapsed"/>
+					<m:viewtype val="standard-sticky-bottom-edge"/>
+					</a:cut>
+
+				<e:section block="cut">
+					<m:type val="preview"/>
+				<e:header tag="div">
+					<a:cut__action>
+						<m:type val="dual"/>
+						</a:cut__action>
+					<a:link>
+						<m:type val="pseudo"/>
+						<m:type val="t"/>
+						<m:viewtype val="context"/>
+						<m:action val="expand"/>
+						</a:link>
+					<e:title tag="h4">
+						Get 10% off your next subscription to any W3C training course
+					</e:title>
+					<e:close>x</e:close>
+				</e:header>
+				</e:section>
+				<e:section block="cut">
+					<m:type val="main"/>
+					<e:section-text block="cut">
+						<e:body tag="p">
+
+							Provide the promotion code
+							<cdata><![CDATA[&ldquo;]]></cdata><b:promo-code>W3C_Rules</b:promo-code><cdata><![CDATA[&rdquo;]]></cdata>
+
+							during your next subscription
+
+
+						</e:body>
+					</e:section-text>
+				</e:section>
+			</b:popup>
+		</t:popup_content_sticky-subscription>
 
 		<p:javascript_body>
+			<b:xscript x:src="js/jquery-1.11.0.min.js"/>
 			<b:xscript x:src="js/common.js"/>
 			<p:content/>
 		</p:javascript_body>
@@ -69,3 +120,4 @@
 	</page-canvas>
 
 </page>
+

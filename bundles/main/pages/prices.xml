@@ -39,21 +39,22 @@
 			<b:table>
 				<m:viewtype val="gray"/>
 				<m:content val="prices"/>
+				<e:caption>Our Prices</e:caption>
 				<b:table-group>
 					<m:type val="heading"/>
 					<b:table-row>
 						<b:table-cell>
 							<m:type val="heading"/>
 						</b:table-cell>
-						<b:table-cell>
+						<b:table-cell x:scope="col">
 							<m:type val="heading"/>
 							Single
 						</b:table-cell>
-						<b:table-cell>
+						<b:table-cell x:scope="col">
 							<m:type val="heading"/>
 							Double
 						</b:table-cell>
-						<b:table-cell>
+						<b:table-cell x:scope="col">
 							<m:type val="heading"/>
 							Triple
 						</b:table-cell>
@@ -63,6 +64,7 @@
 					<m:type val="content"/>
 					<b:table-row>
 						<b:table-cell>
+							<m:type val="heading" x:scope="row"/>
 							<m:content val="room"/>
 							Red Room
 						</b:table-cell>
@@ -76,6 +78,7 @@
 					</b:table-row>
 					<b:table-row>
 						<b:table-cell>
+							<m:type val="heading" x:scope="row"/>
 							<m:content val="room"/>
 							White Room
 						</b:table-cell>
@@ -89,6 +92,7 @@
 					</b:table-row>
 					<b:table-row>
 						<b:table-cell>
+							<m:type val="heading" x:scope="row"/>
 							<m:content val="room"/>
 							Golden Room
 						</b:table-cell>

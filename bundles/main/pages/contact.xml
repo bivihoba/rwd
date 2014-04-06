@@ -104,9 +104,9 @@
 										<b:form-field
 												x:name="fField-ContactUs-arrivalDate-month"
 												x:id="fField-ContactUs-arrivalDate-month"
-												x:placeholder="Type here">
+												x:title="Select Month of Arrival">
 											<m:type val="select"/>
-											<e:option x:selected="selected">Selec Month</e:option>
+											<e:option x:selected="selected">Select Month</e:option>
 											<e:option>Jan</e:option>
 											<e:option>Feb</e:option>
 											<e:option>Mar</e:option>
@@ -127,9 +127,9 @@
 										<b:form-field
 												x:name="fField-ContactUs-arrivalDate-day"
 												x:id="fField-ContactUs-arrivalDate-day"
-												x:placeholder="Type here">
+												x:title="Select Day of Arrival">
 											<m:type val="select"/>
-											<e:option x:selected="selected">Selec Day</e:option>
+											<e:option x:selected="selected">Select Day</e:option>
 											<e:option>1</e:option>
 											<e:option>2</e:option>
 											<e:option>3</e:option>
@@ -169,9 +169,9 @@
 										<b:form-field
 												x:name="fField-ContactUs-arrivalDate-year"
 												x:id="fField-ContactUs-arrivalDate-year"
-												x:placeholder="Type here">
+												x:title="Select Year of Arrival">
 											<m:type val="select"/>
-											<e:option x:selected="selected">Selec year</e:option>
+											<e:option x:selected="selected">Select year</e:option>
 											<e:option>2011</e:option>
 											<e:option>2012</e:option>
 											<e:option>2013</e:option>
@@ -197,9 +197,9 @@
 										<b:form-field
 												x:name="fField-ContactUs-departureDate-month"
 												x:id="fField-ContactUs-departureDate-month"
-												x:placeholder="Type here">
+												x:title="Select Departure Month">
 											<m:type val="select"/>
-											<e:option x:selected="selected">Selec Month</e:option>
+											<e:option x:selected="selected">Select Month</e:option>
 											<e:option>Jan</e:option>
 											<e:option>Feb</e:option>
 											<e:option>Mar</e:option>
@@ -220,9 +220,9 @@
 										<b:form-field
 												x:name="fField-ContactUs-departureDate-day"
 												x:id="fField-ContactUs-departureDate-day"
-												x:placeholder="Type here">
+												x:title="Select Departure Day">
 											<m:type val="select"/>
-											<e:option x:selected="selected">Selec Day</e:option>
+											<e:option x:selected="selected">Select Day</e:option>
 											<e:option>1</e:option>
 											<e:option>2</e:option>
 											<e:option>3</e:option>
@@ -262,9 +262,9 @@
 										<b:form-field
 												x:name="fField-ContactUs-departureDate-year"
 												x:id="fField-ContactUs-departureDate-year"
-												x:placeholder="Type here">
+												x:title="Select Departure Year">
 											<m:type val="select"/>
-											<e:option x:selected="selected">Selec year</e:option>
+											<e:option x:selected="selected">Select year</e:option>
 											<e:option>2011</e:option>
 											<e:option>2012</e:option>
 											<e:option>2013</e:option>
@@ -281,21 +281,20 @@
 							<b:form-field-composition>
 								<e:title>
 									<e:title-text>
-										<a:form-field-label x:for="fField-ContactUs-email"/>
+										<a:form-field-label x:for="fField-ContactUs-message"/>
 										Message:
 									</e:title-text>
 								</e:title>
 								<e:content>
 									<b:form-field-box>
 										<b:form-field
-												x:name="fField-ContactUs-email"
-												x:id="fField-ContactUs-email">
-											<m:type val="text"
+												x:name="fField-ContactUs-message"
+												x:id="fField-ContactUs-message">
+											<m:type val="textarea"
 												x:placeholder="Type here"
 												x:cols="28"
 												x:rows="5"
 												/>
-											<m:type val="textarea"/>
 										</b:form-field>
 									</b:form-field-box>
 								</e:content>
@@ -305,10 +304,12 @@
 							<m:content val="submit"/>
 							<b:form-field-composition>
 								<m:content val="submit"/>
+								<e:title><a:semantic><m:type val="text"/></a:semantic>Submit form:</e:title>
 								<e:content>
 									<b:form-field-box>
 										<b:form-field
-												x:value="Proceed">
+												x:value="Proceed"
+												x:id="fField-ContactUs-submit">
 											<m:type val="submit"/>
 										</b:form-field>
 									</b:form-field-box>
@@ -316,10 +317,12 @@
 							</b:form-field-composition>
 							<b:form-field-composition>
 								<m:content val="reset"/>
+								<e:title><a:semantic><m:type val="text"/></a:semantic>Reset field values:</e:title>
 								<e:content>
 									<b:form-field-box>
 										<b:form-field
-												x:value="Cancel">
+												x:value="Cancel"
+												x:id="fField-ContactUs-reset">
 											<m:type val="reset"/>
 										</b:form-field>
 									</b:form-field-box>

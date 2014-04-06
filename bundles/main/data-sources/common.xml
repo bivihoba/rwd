@@ -5,7 +5,7 @@
 			<item handle="rooms" url="main__rooms.html">Rooms</item>
 			<item handle="prices" url="main__prices.html">Prices</item>
 			<item handle="contact" url="main__contact.html">Contact</item>
-			<item type="external" url="http://en.turismovenezia.it/">Turismo Venezia</item>
+			<item url="http://en.turismovenezia.it/">Turismo Venezia</item>
 		</list>
 	</menu_content_main>
 </data>

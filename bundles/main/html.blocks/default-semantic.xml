@@ -29,6 +29,7 @@
 	<b:menu tag="nav" x:role="navigation"/>
 	<e:list block="menu" tag="ul"/>
 	<e:item-text block="menu" tag="a"/>
+	<m:content val="main" block="menu" tag="div"/>
 	<!-- menu < -->
 
 	<!-- stripe > -->
@@ -64,6 +65,7 @@
 		<e:content block="form-field-composition" tag="dd"/>
 	<!--field-composition < -->
 
+	<m:type val="inline" block="form-field-box" tag="span"/>
 	<m:content val="form-field" block="billet" tag="label"/>
 	<b:form-field-remark tag="small"/>
 	<b:required-field-symbol tag="small"/>
@@ -71,5 +73,8 @@
 	<b:form-field-text tag="span"/>
 
 	<m:type val="number" block="form-field" x:type="text" x:pattern="[0-9]*"/><!-- TODO pull-request to slcf-nano-core-->
+
+
+	<e:caption block="table" tag="caption"/>
 
 </default-semantic>

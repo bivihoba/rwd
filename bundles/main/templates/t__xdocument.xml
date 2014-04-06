@@ -3,11 +3,11 @@
 <t:xdocument>
 <b:xdocument>
 	<e:head>
-		<p:xmeta/>
+		<b:xmeta><m:content val="charset"/></b:xmeta>
 		<e:title><p:xtitle>Page Title</p:xtitle></e:title>
+		<p:xmeta/>
 
 		<cdata><![CDATA[<script type="text/javascript">document.documentElement.id = "js";</script>]]></cdata>
-
 		<b:xlink><m:favicon/></b:xlink>
 		<p:xstyles/><p:javascript_head/>
 	</e:head>
@@ -19,9 +19,8 @@
 </t:xdocument>
 
 	<t:xmeta>
-		<b:xmeta><m:content val="charset"/></b:xmeta>
-		<p:xmeta_content_keywords/>
 		<p:xmeta_content_description/>
+		<p:xmeta_content_keywords/>
 		<p:xmeta_content_viewport/>
 		<cdata><![CDATA[<!--[if IE ]>]]></cdata>
 			<b:xmeta><m:content val="imagetoolbar"/></b:xmeta>
@@ -40,6 +39,9 @@
 </t:xstyles>
 
 	<t:javascript_head>
+		<cdata><![CDATA[<!--[if lt IE 9 ]>]]></cdata>
+		<b:xscript x:src="js/html5shiv.js"/>
+		<cdata><![CDATA[<![endif]-->]]></cdata>
 		<p:content/>
 	</t:javascript_head>
 

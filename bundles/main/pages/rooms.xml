@@ -16,9 +16,7 @@
 				<m:viewtype val="main"/>
 				<e:header>
 					<e:title>
-						<a:heading>
-							<m:level val="2"/>
-							</a:heading>
+						<a:page-title/>
 						<cdata><![CDATA[Our Rooms]]></cdata>
 					</e:title>
 				</e:header>

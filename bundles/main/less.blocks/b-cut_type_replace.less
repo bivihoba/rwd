@@ -1,0 +1,20 @@
+.b-cut {
+	&_type_replace {
+		&.b-cut_state_collapsed  {
+			.b-cut__section_type_main {
+				display:none;
+			}
+			.b-link_action_collapse {
+				display:none;
+			}
+		}
+		&.b-cut_state_expanded {
+			.b-link_action_expand {
+				display:none;
+			}
+			.b-cut__section_type_main {
+				display:block;
+			}
+		}
+	}
+}

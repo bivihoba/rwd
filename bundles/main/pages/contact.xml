@@ -121,7 +121,7 @@
 											<e:option>December</e:option>
 										</b:form-field>
 									</b:form-field-box>
-									<b:form-field-text> </b:form-field-text>
+									<!--<b:form-field-text> </b:form-field-text>-->
 									<b:form-field-box>
 										<m:type val="inline"/>
 										<b:form-field
@@ -163,7 +163,7 @@
 											<e:option>31</e:option>
 										</b:form-field>
 									</b:form-field-box>
-									<b:form-field-text> </b:form-field-text>
+									<!--<b:form-field-text> </b:form-field-text>-->
 									<b:form-field-box>
 										<m:type val="inline"/>
 										<b:form-field
@@ -214,7 +214,7 @@
 											<e:option>December</e:option>
 										</b:form-field>
 									</b:form-field-box>
-									<b:form-field-text> </b:form-field-text>
+									<!--<b:form-field-text> </b:form-field-text>-->
 									<b:form-field-box>
 										<m:type val="inline"/>
 										<b:form-field
@@ -256,7 +256,7 @@
 											<e:option>31</e:option>
 										</b:form-field>
 									</b:form-field-box>
-									<b:form-field-text> </b:form-field-text>
+									<!--<b:form-field-text> </b:form-field-text>-->
 									<b:form-field-box>
 										<m:type val="inline"/>
 										<b:form-field

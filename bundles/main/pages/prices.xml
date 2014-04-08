@@ -11,36 +11,23 @@
 	<templates>
 		<t:xtitle><cdata><![CDATA[Our Prices - Canal View B & B]]></cdata></t:xtitle>
 
+		<p:page-title><cdata><![CDATA[Our Prices]]></cdata></p:page-title>
+
 		<p:main>
-			<b:section>
-				<m:viewtype val="main"/>
-				<e:header>
-					<e:title>
-						<a:page-title/>
-						<cdata><![CDATA[Our Prices]]></cdata>
-					</e:title>
-				</e:header>
-				<e:body>
-					<p:table_content_prices/>
-				</e:body>
-			</b:section>
+			<p:table_content_prices/>
 		</p:main>
 
 		<p:section_content_reviews>
-			<a:review block="true">
-				<m:viewtype val="aside"/>
-				</a:review>
-			<e:content>
+			<b:review>
 				<cdata>
 					<![CDATA[
 					<p>We&nbsp;had a&nbsp;fantastic stay at&nbsp;Canal View B&amp;B for our honeymoon.
 					 The staff was great, really helpful and the room was absolutely lovely. </p>
 					]]>
 				</cdata>
-			</e:content>
-			<e:author>Lea Frost</e:author>
+			</b:review>
+			<b:review-author>Lea Frost</b:review-author>
 		</p:section_content_reviews>
-
 
 		<t:table_content_prices>
 			<b:table>

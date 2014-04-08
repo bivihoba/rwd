@@ -11,35 +11,20 @@
 	<templates>
 		<t:xtitle><cdata><![CDATA[Operation Completed - Canal View B & B]]></cdata></t:xtitle>
 
+		<p:page-title><cdata><![CDATA[Operation Completed]]></cdata></p:page-title>
+
 		<p:main>
-			<b:section>
-				<m:viewtype val="main"/>
-				<e:header>
-					<e:title>
-						<a:page-title/>
-						<cdata><![CDATA[Operation Completed]]></cdata>
-					</e:title>
-				</e:header>
-				<e:body>
-
-					<cdata>
-						<![CDATA[
-						<p>
-						Thanks for contacting&nbsp;us.
-						You will hear within 24&nbsp;hours.</p>
-						]]>
-					</cdata>
-
-
-				</e:body>
-			</b:section>
+			<cdata>
+				<![CDATA[
+				<p>
+				Thanks for contacting&nbsp;us.
+				You will hear within 24&nbsp;hours.</p>
+				]]>
+			</cdata>
 		</p:main>
 
 		<p:section_content_reviews>
-			<a:review block="true">
-				<m:viewtype val="aside"/>
-				</a:review>
-			<e:content>
+			<b:review>
 				<cdata>
 					<![CDATA[
 					<p>
@@ -50,8 +35,8 @@
 					</p>
 					]]>
 				</cdata>
-			</e:content>
-			<e:author>Brad Clarke</e:author>
+			</b:review>
+			<b:review-author>Brad Clarke</b:review-author>
 		</p:section_content_reviews>
 
 	</templates>

@@ -1,89 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" ?><templates xmlns:a="http://slcf/templates/settings/bem-scheme/additional" xmlns:b="http://slcf/templates/settings/bem-scheme/block" xmlns:d="http://slcf/templates/settings/bem-scheme/data" xmlns:e="http://slcf/templates/settings/bem-scheme/element" xmlns:p="http://slcf/templates/settings/bem-scheme/pointer" xmlns:m="http://slcf/templates/settings/bem-scheme/modification" xmlns:t="http://slcf/templates/settings/bem-scheme/template" xmlns:x="http://slcf/templates/settings/bem-scheme/xhtml" xmlns:un="http://slcf/templates/settings/bem-scheme/unknown-namespace" xmlns:alxc="http://slcf/templates/settings/bem-scheme/additional-legacy-xhtml-class">
 
 	<t:page>
-		<b:page>
-			<p:stripe_content_header/>
-			<p:stripe_content_main/>
-			<p:content/>
-		</b:page>
-		<b:page-background/>
+		<b:header>
+			<p:logo/>
+		</b:header>
+		<p:section_content_main-menu/>
+		<p:main/>
+		<p:sidebar/>
+		<p:content/>
 	</t:page>
 
-	<t:stripe>
-		<b:stripe>
-			<p:content/>
-		</b:stripe>
-	</t:stripe>
-
-	<t:stripe_content_header>
-		<b:stripe>
-			<m:content val="header"/>
-			<p:logo/>
-		</b:stripe>
-	</t:stripe_content_header>
-
-	<t:stripe_content_main>
-		<p:stripe>
-			<e:in>
-				<a:columns-layout>
-					<m:scheme val="a-b-c"/>
-					</a:columns-layout>
-				<b:interlayer>
-					<m:type val="flow-breaker"/>
-					<m:type val="auto-height"/>
-					<m:column val="b"/>
-					<p:column_content_menu/>
-					<p:column_content_main/>
-				</b:interlayer>
-				<p:column_content_sidebar/>
-			</e:in>
-		</p:stripe>
-	</t:stripe_content_main>
-
-	<t:column>
-		<b:column>
-			<p:content/>
-		</b:column>
-	</t:column>
-
-	<t:column_content_menu>
-		<p:column>
-			<m:layout val="a"/>
-			<m:content val="menu"/>
-			<e:in>
-				<p:section_content_main-menu/>
-				<p:content/>
-			</e:in>
-		</p:column>
-	</t:column_content_menu>
-
-	<t:column_content_main>
-		<p:column>
-			<m:layout val="b"/>
-			<m:content val="main"/>
-			<e:in tag="main" x:role="main">
-				<p:main/>
-			</e:in>
-		</p:column>
-	</t:column_content_main>
-
-	<t:column_content_sidebar>
-		<p:column>
-			<m:layout val="c"/>
-			<m:content val="sidebar"/>
-			<e:in tag="aside" x:role="complementary">
-				<p:sidebar/>
-			</e:in>
-		</p:column>
-	</t:column_content_sidebar>
-
 	<t:main>
-		<p:content/>
+		<b:main tag="main" x:role="main" noclass="true">
+			<p:page-title/>
+			<p:content/>
+		</b:main>
 	</t:main>
 
 	<t:sidebar>
-		<p:section_content_reviews/>
-		<p:content/>
+		<b:sidebar tag="aside" x:role="complementary" noclass="true">
+			<p:section_content_reviews/>
+			<p:content/>
+		</b:sidebar>
 	</t:sidebar>
 
 </templates>

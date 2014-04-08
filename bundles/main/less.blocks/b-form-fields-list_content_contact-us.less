@@ -1,30 +1,56 @@
-.b-form-fields-list {
-	&_content_contact-us {
-		.b-form-field-composition__title {
+ul {
+	form & {
+		.list-reset();
+
+		dl {
+
+			.clearfix();
+			margin: 0;
+		}
+		dt {
+			float:left;
+			line-height:1;
+			margin:0 -100% 0 0;
+			position:relative;
 			width:146px;
-		}
-		.b-form-field-composition__title-text {
 
+			font: 0px/0 'softline',a;
+
+			span,
+			label {
+				display:inline-block;
+				vertical-align:top;
+
+				font:bold 16px/20px @default-font-family;
+			}
 		}
-		.b-form-field-composition__content {
+		dd {
+			margin:0;
 			margin-left:152px;
+
+			max-width:300px;
+			text-align: left;
 		}
 
-		.b-form-fields-list__item {
-			&_content_submit {
+		li {
+			clear:both;
+
+			padding-bottom:8px;
+
+			&:last-child {
+
 				.clearfix();
-			}
-		}
-		.b-form-field-composition {
-			&_content_submit,
-			&_content_reset {
-				float:left;
-				margin-right:-100%;
-			}
-			&_content_reset {
-				float:left;
-				.b-form-field-composition__content {
-					margin-left:0;
+
+				dl {
+					float:left;
+					margin-right:-100%;
+
+					& + dl {
+
+						dd {
+							margin-left:0;
+						}
+					}
 				}
 			}
 		}

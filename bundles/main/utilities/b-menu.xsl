@@ -23,10 +23,8 @@
 
 		<xsl:template match="*" mode="data_menu__list" xml:space="preserve"/>
 		<xsl:template match="list" mode="data_menu__list" xml:space="preserve">
-			<e:list>
-				<xsl:apply-templates select="." mode="data_menu__list-content-type"/>
-				<xsl:apply-templates select="item" mode="data_menu__item"/>
-			</e:list>
+			<xsl:apply-templates select="." mode="data_menu__list-content-type"/>
+			<xsl:apply-templates select="item" mode="data_menu__item"/>
 		</xsl:template>
 
 		<xsl:template match="*" mode="data_menu__list-content-type" xml:space="preserve"/>
@@ -64,7 +62,7 @@
 		<xsl:template match="*" mode="data_menu__item-url" xml:space="preserve"/>
 		<xsl:template match="item[@url]" mode="data_menu__item-url" xml:space="preserve">
 			<!--<a:link x:href="{@url}"/>-->
-			<a:link x:href="{@url}">
+			<a:link x:href="{@url}" noclass="true">
 				<xsl:apply-templates select="." mode="data_menu__check-url-type"/>
 			</a:link>
 		</xsl:template>
@@ -83,7 +81,7 @@
 		</xsl:template>
 
 		<xsl:template match="item[@handle = //title/@handle]" mode="data_menu__item_state" xml:space="preserve">
-			<m:state val="selected"/>
+			<!--<a:params noblock="true" x:data-selected="true"/>-->
 		</xsl:template>
 
 		<xsl:template match="*" mode="data_menu__item-title" xml:space="preserve"/>

@@ -11,28 +11,14 @@
 	<templates>
 		<t:xtitle><cdata><![CDATA[Contact Us - Canal View B & B]]></cdata></t:xtitle>
 
+		<p:page-title><cdata><![CDATA[Contact&nbsp;Us]]></cdata></p:page-title>
+
 		<p:main>
-			<b:section>
-				<m:viewtype val="main"/>
-				<e:header>
-					<e:title>
-						<a:page-title/>
-						<cdata><![CDATA[Contact&nbsp;Us]]></cdata>
-					</e:title>
-				</e:header>
-				<e:body>
-
-					<p:form_content_concts-us/>
-
-				</e:body>
-			</b:section>
+			<p:form_content_concts-us/>
 		</p:main>
 
 		<p:section_content_reviews>
-			<a:review block="true">
-				<m:viewtype val="aside"/>
-				</a:review>
-			<e:content>
+			<b:review>
 				<cdata>
 					<![CDATA[
 					<p>
@@ -43,8 +29,8 @@
 					</p>
 					]]>
 				</cdata>
-			</e:content>
-			<e:author>Brad Clarke</e:author>
+			</b:review>
+			<b:review-author>Brad Clarke</b:review-author>
 		</p:section_content_reviews>
 
 		<t:form_content_concts-us>
@@ -66,14 +52,14 @@
 									</e:title-text>
 								</e:title>
 								<e:content>
-									<b:form-field-box>
+									
 										<b:form-field
 												x:name="fField-ContactUs-name"
 												x:id="fField-ContactUs-name">
 											<m:type val="text"
 												x:size="30"/>
 										</b:form-field>
-									</b:form-field-box>
+									
 								</e:content>
 							</b:form-field-composition>
 						</e:item>
@@ -86,7 +72,7 @@
 									</e:title-text>
 								</e:title>
 								<e:content>
-									<b:form-field-box>
+									
 										<b:form-field
 												x:name="fField-ContactUs-email"
 												x:id="fField-ContactUs-email">
@@ -94,7 +80,7 @@
 												x:size="30"/>
 											<m:type val="email"/>
 										</b:form-field>
-									</b:form-field-box>
+									
 								</e:content>
 							</b:form-field-composition>
 						</e:item>
@@ -106,7 +92,7 @@
 									</e:title-text>
 								</e:title>
 								<e:content>
-									<b:form-field-box>
+									
 										<m:type val="inline"/>
 										<b:form-field
 												x:name="fField-ContactUs-arrivalDate-month"
@@ -127,9 +113,9 @@
 											<e:option>November</e:option>
 											<e:option>December</e:option>
 										</b:form-field>
-									</b:form-field-box>
+									
 									<!--<b:form-field-text> </b:form-field-text>-->
-									<b:form-field-box>
+									
 										<m:type val="inline"/>
 										<b:form-field
 												x:name="fField-ContactUs-arrivalDate-day"
@@ -169,9 +155,9 @@
 											<e:option>30</e:option>
 											<e:option>31</e:option>
 										</b:form-field>
-									</b:form-field-box>
+									
 									<!--<b:form-field-text> </b:form-field-text>-->
-									<b:form-field-box>
+									
 										<m:type val="inline"/>
 										<b:form-field
 												x:name="fField-ContactUs-arrivalDate-year"
@@ -187,7 +173,7 @@
 											<e:option>2016</e:option>
 											<e:option>2017</e:option>
 										</b:form-field>
-									</b:form-field-box>
+									
 								</e:content>
 							</b:form-field-composition>
 						</e:item>
@@ -199,7 +185,7 @@
 									</e:title-text>
 								</e:title>
 								<e:content>
-									<b:form-field-box>
+									
 										<m:type val="inline"/>
 										<b:form-field
 												x:name="fField-ContactUs-departureDate-month"
@@ -220,9 +206,9 @@
 											<e:option>November</e:option>
 											<e:option>December</e:option>
 										</b:form-field>
-									</b:form-field-box>
+									
 									<!--<b:form-field-text> </b:form-field-text>-->
-									<b:form-field-box>
+									
 										<m:type val="inline"/>
 										<b:form-field
 												x:name="fField-ContactUs-departureDate-day"
@@ -262,9 +248,9 @@
 											<e:option>30</e:option>
 											<e:option>31</e:option>
 										</b:form-field>
-									</b:form-field-box>
+									
 									<!--<b:form-field-text> </b:form-field-text>-->
-									<b:form-field-box>
+									
 										<m:type val="inline"/>
 										<b:form-field
 												x:name="fField-ContactUs-departureDate-year"
@@ -280,7 +266,7 @@
 											<e:option>2016</e:option>
 											<e:option>2017</e:option>
 										</b:form-field>
-									</b:form-field-box>
+									
 								</e:content>
 							</b:form-field-composition>
 						</e:item>
@@ -293,7 +279,7 @@
 									</e:title-text>
 								</e:title>
 								<e:content>
-									<b:form-field-box>
+									
 										<b:form-field
 												x:name="fField-ContactUs-message"
 												x:id="fField-ContactUs-message">
@@ -303,7 +289,7 @@
 												x:rows="5"
 												/>
 										</b:form-field>
-									</b:form-field-box>
+									
 								</e:content>
 							</b:form-field-composition>
 						</e:item>
@@ -313,26 +299,26 @@
 								<m:content val="submit"/>
 								<e:title><a:semantic><m:type val="text"/></a:semantic>Submit form:</e:title>
 								<e:content>
-									<b:form-field-box>
+									
 										<b:form-field
 												x:value="Proceed"
 												x:id="fField-ContactUs-submit">
 											<m:type val="submit"/>
 										</b:form-field>
-									</b:form-field-box>
+									
 								</e:content>
 							</b:form-field-composition>
 							<b:form-field-composition>
 								<m:content val="reset"/>
 								<e:title><a:semantic><m:type val="text"/></a:semantic>Reset field values:</e:title>
 								<e:content>
-									<b:form-field-box>
+									
 										<b:form-field
 												x:value="Cancel"
 												x:id="fField-ContactUs-reset">
 											<m:type val="reset"/>
 										</b:form-field>
-									</b:form-field-box>
+									
 								</e:content>
 							</b:form-field-composition>
 						</e:item>

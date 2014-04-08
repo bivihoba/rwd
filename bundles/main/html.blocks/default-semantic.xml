@@ -6,8 +6,8 @@
 	<m:content val="description" block="xmeta" x:name="description" x:content="Canal View B &amp; B"/>
 	<m:content val="keywords" block="xmeta" x:name="keywords" x:content="Canal View B &amp; B"/>
 
-	<b:section tag="section"/>
-	<e:header block="section" tag="header"/>
+	<b:section tag="section" noclass="true"/>
+	<e:header block="section" tag="header" noclass="true"/>
 
 	<!--table > -->
 	<b:table tag="table"/>
@@ -28,14 +28,14 @@
 
 	<!-- menu > -->
 	<b:menu tag="nav" x:role="navigation"/>
-	<e:list block="menu" tag="ul"/>
-	<e:item-text block="menu" tag="a"/>
-	<m:content val="main" block="menu" tag="div"/>
+	<!--<e:list block="menu" tag="ul"/>-->
+	<e:item block="menu" noclass="true"/>
+	<e:item-text block="menu" tag="a" noclass="true"/>
+	<m:content val="main" block="menu" tag="ul" noclass="true"/>
 	<!-- menu < -->
 
 	<!-- stripe > -->
-	<m:content val="header" block="stripe" tag="header" x:role="banner"/>
-	<m:content val="footer" block="stripe" tag="footer" x:role="contentinfo"/>
+	<b:header tag="header" x:role="banner" noclass="true"/>
 	<!-- stripe < -->
 
 	<b:break-line tag="br"/>
@@ -50,21 +50,27 @@
 		<e:item-delimeter block="list" tag="span"/>
 	<!--abstract list < -->
 
+
+	<b:form noclass="true"/>
+
 	<!--form-fields-group > -->
-	<b:form-fields-group tag="fieldset" />
-		<e:title block="form-fields-group" tag="legend"/>
+	<b:form-fields-group tag="fieldset" noclass="true"/>
+		<e:title block="form-fields-group" tag="legend" noclass="true"/>
 	<!--form-fields-group < -->
 
 	<!--form-fields-list > -->
-	<b:form-fields-list tag="ul"/>
+	<b:form-fields-list tag="ul" noclass="true"/>
+	<e:item block="form-fields-list" noclass="true"/>
 	<!--form-fields-list < -->
 
 	<!--field-composition > -->
-	<b:form-field-composition tag="dl"/>
-		<e:title block="form-field-composition" tag="dt"/>
-		<e:title-text block="form-field-composition" tag="span"/>
-		<e:content block="form-field-composition" tag="dd"/>
+	<b:form-field-composition tag="dl" noclass="true"/>
+		<e:title block="form-field-composition" tag="dt" noclass="true"/>
+		<e:title-text block="form-field-composition" tag="span" noclass="true"/>
+		<e:content block="form-field-composition" tag="dd" noclass="true"/>
 	<!--field-composition < -->
+
+	<b:form-field-label noclass="true"/>
 
 	<m:type val="inline" block="form-field-box" tag="span"/>
 	<m:content val="form-field" block="billet" tag="label"/>
@@ -77,9 +83,16 @@
 
 
 	<e:caption block="table" tag="caption"/>
-	<b:logo tag="h2"/>
+	<b:logo tag="h2" noclass="true"/>
+	<e:text block="logo" noclass="true"/>
 
-	<e:content block="review" tag="blockquote"/>
-	<e:author block="review" tag="cite"/>
+	<b:review tag="blockquote" noclass="true"/>
+	<b:review-author tag="cite" noclass="true"/>
+
+	<b:page-title tag="h1" noclass="true"/>
+	<b:heading noclass="true"/>
+
+	<b:form-field noclass="true"/>
+	<e:option block="form-field" noclass="true"/>
 
 </default-semantic>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?><templates xmlns:a="http://slcf/templates/settings/bem-scheme/additional" xmlns:b="http://slcf/templates/settings/bem-scheme/block" xmlns:d="http://slcf/templates/settings/bem-scheme/data" xmlns:e="http://slcf/templates/settings/bem-scheme/element" xmlns:p="http://slcf/templates/settings/bem-scheme/pointer" xmlns:m="http://slcf/templates/settings/bem-scheme/modification" xmlns:t="http://slcf/templates/settings/bem-scheme/template" xmlns:x="http://slcf/templates/settings/bem-scheme/xhtml" xmlns:un="http://slcf/templates/settings/bem-scheme/unknown-namespace" xmlns:alxc="http://slcf/templates/settings/bem-scheme/additional-legacy-xhtml-class">
 
 	<t:section_content_main-menu>
-		<b:section tag="nav" x:role="navigation">
+		<b:section tag="nav" x:role="navigation" noclass="true">
 			<m:content val="main-menu"/>
 			<e:header>
 				<e:title>
@@ -11,35 +11,12 @@
 					<cdata>Menu</cdata>
 				</e:title>
 			</e:header>
-			<e:body>
-				<p:menu_content_main/>
-			</e:body>
+			<p:menu_content_main/>
 		</b:section>
 	</t:section_content_main-menu>
 
 	<t:menu_content_main>
 		<d:menu_content_main/>
-		<!--<b:menu>-->
-			<!--<m:content val="main"/>-->
-			<!--<e:list>-->
-				<!--<e:item>-->
-					<!--<m:state val="selected"/>-->
-					<!--<e:item-text>Home</e:item-text>-->
-				<!--</e:item>-->
-				<!--<e:item>-->
-					<!--<e:item-text><a:link/>Rooms</e:item-text>-->
-				<!--</e:item>-->
-				<!--<e:item>-->
-					<!--<e:item-text><a:link/>Prices</e:item-text>-->
-				<!--</e:item>-->
-				<!--<e:item>-->
-					<!--<e:item-text><a:link/>Contact</e:item-text>-->
-				<!--</e:item>-->
-				<!--<e:item>-->
-					<!--<e:item-text><a:link/>Turismo Venezia</e:item-text>-->
-				<!--</e:item>-->
-			<!--</e:list>-->
-		<!--</b:menu>-->
 	</t:menu_content_main>
 
 </templates>

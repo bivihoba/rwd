@@ -19,8 +19,6 @@
 
 <t:xmeta>
 	<p:xmeta_content_description/>
-	<p:xmeta_content_keywords/>
-	<p:xmeta_content_viewport/>
 	<cdata><![CDATA[<!--[if IE ]>]]></cdata>
 	<b:xmeta><m:content val="user-agent"/></b:xmeta>
 	<cdata><![CDATA[<![endif]-->]]></cdata>

@@ -17,52 +17,36 @@
 		</t:logo>
 
 		<p:page>
-			<m:content val="index"/>
+			<a:params noblock="true" x:data-page="index"/>
 			<p:popup_content_sticky-subscription/>
 		</p:page>
 
+		<p:page-title><cdata><![CDATA[LOW COST ROMANTIC&nbsp;VENICE]]></cdata></p:page-title>
+
 		<p:main>
-			<b:section>
-				<m:viewtype val="main" tag="div"/>
-				<e:header tag="div">
-					<e:title>
-						<a:page-title/>
-						<!--<a:heading>-->
-							<!--<m:level val="2"/>-->
-							<!--</a:heading>-->
-						<cdata><![CDATA[LOW COST ROMANTIC&nbsp;VENICE]]></cdata>
-					</e:title>
-				</e:header>
-				<e:body>
-					<a:pure-content/>
-					<cdata>
-						<![CDATA[
-						<p>Our Bed and Breakfast is&nbsp;located in&nbsp;a&nbsp;typical Venetian area, on&nbsp;the second floor of&nbsp;a&nbsp;Venetian palace,
-						with private entrance and canal view, close to&nbsp;San Marco Square.</p>
+			<cdata>
+				<![CDATA[
+				<p>Our Bed and Breakfast is&nbsp;located in&nbsp;a&nbsp;typical Venetian area, on&nbsp;the second floor of&nbsp;a&nbsp;Venetian palace,
+				with private entrance and canal view, close to&nbsp;San Marco Square.</p>
 
-						<p>The neighbourhood is&nbsp;very beautiful and characteristic, the house is&nbsp;just a&nbsp;footstep away from the most important monuments, churches and shops,
-						with restaurants, pizzerias and bars around the corner.</p>
+				<p>The neighbourhood is&nbsp;very beautiful and characteristic, the house is&nbsp;just a&nbsp;footstep away from the most important monuments, churches and shops,
+				with restaurants, pizzerias and bars around the corner.</p>
 
-						<p>Take a&nbsp;look at&nbsp;our <a href="main__rooms.html">comfortable and elegant rooms</a>. Each bedroom has a&nbsp;seating area and balcony overlooking the canal.</p>
-						]]>
-					</cdata>
-				</e:body>
-			</b:section>
+				<p>Take a&nbsp;look at&nbsp;our <a href="main__rooms.html">comfortable and elegant rooms</a>. Each bedroom has a&nbsp;seating area and balcony overlooking the canal.</p>
+				]]>
+			</cdata>
 		</p:main>
 
 		<p:section_content_reviews>
-			<a:review block="true">
-				<m:viewtype val="aside"/>
-				</a:review>
-			<e:content>
+			<b:review>
 				<cdata>
 					<![CDATA[
 					<p>Thank you very much for a&nbsp;lovely stay&nbsp;&mdash; a&nbsp;great room a&nbsp;friendly host,
 					 and a&nbsp;great breakfast. Wish we&nbsp;could stay here for longer than just one day! Thank you.</p>
 					]]>
 				</cdata>
-			</e:content>
-			<e:author>Paul Lawson</e:author>
+			</b:review>
+			<b:review-author>Paul Lawson</b:review-author>
 		</p:section_content_reviews>
 
 		<t:popup_content_sticky-subscription>
@@ -76,10 +60,9 @@
 					<m:state val="collapsed"/>
 					<m:viewtype val="standard-sticky-bottom-edge"/>
 					</a:cut>
-
-				<e:section block="cut">
+				<e:section block="cut" tag="header">
 					<m:type val="preview"/>
-				<e:header tag="div">
+					<a:header block-of="popup"/>
 					<a:cut__action>
 						<m:type val="dual"/>
 						</a:cut__action>
@@ -89,19 +72,17 @@
 						<m:viewtype val="context"/>
 						<m:action val="expand"/>
 						</a:link>
+					<e:close tag="span" x:role="presentation">x</e:close>
 					<e:title tag="h4">
 						Get 10% off your next subscription to any W3C training course
 					</e:title>
-					<e:close>x</e:close>
-				</e:header>
+
 				</e:section>
-				<e:section block="cut">
+				<e:section block="cut" tag="p">
 					<m:type val="main"/>
-					<e:section-text block="cut">
-						<e:body tag="p">
-							Provide the promotion code <cdata><![CDATA[&ldquo;]]></cdata><b:promo-code tag="em">W3C_Rules</b:promo-code><cdata><![CDATA[&rdquo;]]></cdata> during your next subscription.
-						</e:body>
-					</e:section-text>
+					<a:section-text block-of="cut"/>
+					<a:body block-of="popup"/>
+						Provide the promotion code <cdata><![CDATA[&ldquo;]]></cdata><b:promo-code tag="em">W3C_Rules</b:promo-code><cdata><![CDATA[&rdquo;]]></cdata> during your next subscription.
 				</e:section>
 			</b:popup>
 		</t:popup_content_sticky-subscription>

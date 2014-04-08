@@ -11,43 +11,31 @@
 	<templates>
 		<t:xtitle><cdata><![CDATA[Our Rooms - Canal View B & B]]></cdata></t:xtitle>
 
+		<p:page-title><cdata><![CDATA[Our Rooms]]></cdata></p:page-title>
+
 		<p:main>
-			<b:section>
-				<m:viewtype val="main"/>
-				<e:header>
-					<e:title>
-						<a:page-title/>
-						<cdata><![CDATA[Our Rooms]]></cdata>
-					</e:title>
-				</e:header>
-				<e:body>
-					<a:pure-content/>
-					<cdata>
-						<![CDATA[
-						<p>Each of&nbsp;our rooms include:</p>
-						<ul>
-							<li>Sitting area</li>
-							<li>Balcony with view over the canal</li>
-							<li>Private bathroom</li>
-							<li>Robes, iron, hairdryer</li>
-							<li>Queen bed</li>
-							<li>Air conditioning</li>
-							<li>Gas log fireplace</li>
-							<li>HD&nbsp;Flatscreen TV</li>
-							<li>Wireless internet access</li>
-							<li>Coffeemaker, tea kettle, toaster</li>
-						</ul>
-						]]>
-					</cdata>
-				</e:body>
-			</b:section>
+			<cdata>
+				<![CDATA[
+				<p>Each of&nbsp;our rooms include:</p>
+				<ul>
+					<li>Sitting area</li>
+					<li>Balcony with view over the canal</li>
+					<li>Private bathroom</li>
+					<li>Robes, iron, hairdryer</li>
+					<li>Queen bed</li>
+					<li>Air conditioning</li>
+					<li>Gas log fireplace</li>
+					<li>HD&nbsp;Flatscreen TV</li>
+					<li>Wireless internet access</li>
+					<li>Coffeemaker, tea kettle, toaster</li>
+				</ul>
+				]]>
+			</cdata>
+
 		</p:main>
 
 		<p:section_content_reviews>
-			<a:review block="true">
-				<m:viewtype val="aside"/>
-				</a:review>
-			<e:content>
+			<b:review>
 				<cdata>
 					<![CDATA[
 					<p>It&nbsp;is&nbsp;a&nbsp;wonderful place in&nbsp;a&nbsp;quiet inner court close to&nbsp;the busy Rialto bridge.
@@ -56,8 +44,8 @@
 					 Could not be&nbsp;better and will recommend Corte 1321 to&nbsp;anyone visiting Venice.</p>
 					]]>
 				</cdata>
-			</e:content>
-			<e:author>Andy Irish</e:author>
+			</b:review>
+			<b:review-author>Andy Irish</b:review-author>
 		</p:section_content_reviews>
 
 	</templates>

@@ -6,4 +6,9 @@
 		</b:logo>
 	</t:logo>
 
+	<t:page-title>
+		<b:page-title>
+			<p:content/>
+		</b:page-title>
+	</t:page-title>
 </templates>

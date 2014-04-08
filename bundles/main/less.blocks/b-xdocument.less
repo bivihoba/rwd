@@ -1,15 +1,28 @@
 html {
 	min-width:1000px;
 	height:100%;
+
+	background:#0d5a92 url('../images/b-page-background.jpg') no-repeat;
+
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+
+	color:#fff;
 }
 body {
 	min-height:100%;
-	margin:0;
+	margin:auto;
+	max-width:998px;
 
 	position:relative;
+	padding:0 0 36px;
 
-	font:16px/20px @default-font-family;
+	font:16px/26px @default-font-family;
+	.clearfix();
 
-	background:#0d5a92;
-	color:#fff;
+	#nojs & {
+		padding-bottom:136px;
+	}
 }

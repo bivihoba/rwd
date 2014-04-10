@@ -32,7 +32,12 @@
 <t:xstyles>
 	<b:xlink x:href="css/main.styles.css"><m:style/></b:xlink>
 	<cdata><![CDATA[<!--[if IE 8 ]>]]></cdata>
-	<b:xlink x:href="css/main.styles.ie8.css"><m:style/></b:xlink>
+	<cdata><![CDATA[
+		<style type="text/css">
+			img {width:auto;}
+		</style>
+	]]></cdata>
+	<!--<b:xlink x:href="css/main.styles.ie8.css"><m:style/></b:xlink>-->
 	<cdata><![CDATA[<![endif]-->]]></cdata>
 	<p:content/>
 </t:xstyles>

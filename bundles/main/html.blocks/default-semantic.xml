@@ -83,7 +83,8 @@
 
 
 	<e:caption block="table" tag="caption"/>
-	<b:logo tag="h2" noclass="true"/>
+	<b:logo noclass="true"/>
+	<b:link noclass="true"/>
 	<e:text block="logo" noclass="true"/>
 
 	<b:review tag="blockquote" noclass="true"/>

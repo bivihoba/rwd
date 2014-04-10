@@ -4,9 +4,9 @@
 		<b:header>
 			<p:logo/>
 		</b:header>
-		<p:section_content_main-menu/>
 		<p:main/>
 		<p:sidebar/>
+		<p:section_content_main-menu/>
 		<p:content/>
 	</t:page>
 

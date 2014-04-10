@@ -13,7 +13,12 @@
     </script>
     <link rel="stylesheet" media="screen" href="css/main.template_styles.css" />
     <!--[if IE 8 ]>
-	<link rel="stylesheet" media="screen" href="css/main.template_styles.ie8.css" />
+	
+		<style type="text/css">
+			img {width:auto;}
+		</style>
+	
+	
 	<![endif]-->
     <!--[if lt IE 9 ]>
 	<script type="text/javascript" src="js/html5shiv.js"></script>
@@ -21,25 +26,8 @@
   </head>
   <body data-page="index">
     <header role="banner">
-      <h2>Canal View B&nbsp;&&nbsp;B</h2>
+      <a href="index.html" title="Go to Home">Canal View B&nbsp;&&nbsp;B</a>
     </header>
-    <nav role="navigation">
-      <header>
-        <h3>Menu</h3>
-      </header>
-      <ul>
-        <li><a>Home</a>
-        </li>
-        <li><a href="rooms.html" title="">Rooms</a>
-        </li>
-        <li><a href="prices.html" title="">Prices</a>
-        </li>
-        <li><a href="contact.html" title="">Contact</a>
-        </li>
-        <li><a href="http://en.turismovenezia.it/" title="">Turismo Venezia</a>
-        </li>
-      </ul>
-    </nav>
     <main role="main">
       <h1>LOW COST ROMANTIC&nbsp;VENICE</h1>
       <p>Our Bed and Breakfast is&nbsp;located in&nbsp;a&nbsp;typical Venetian area, on&nbsp;the second floor of&nbsp;a&nbsp;Venetian palace, with private entrance and canal view, close to&nbsp;San Marco Square.</p>
@@ -53,15 +41,30 @@
       </blockquote>
       <cite>Paul Lawson</cite>
     </aside>
-    <div class="b-popup b-popup_viewtype_standard-sticky-bottom-edge b-popup_content_sticky-subscription b-popup_state_opened b-cut b-cut_type_addition b-cut_state_collapsed b-cut_viewtype_standard-sticky-bottom-edge" role="complementary">
-      <header class="b-cut__section b-cut__section_type_preview b-popup__header b-cut__action b-cut__action_type_dual b-link b-link_type_pseudo b-link_type_t b-link_viewtype_context b-link_action_expand">
-        <span class="b-popup__close" role="presentation">x</span>
-        <h4 class="b-popup__title">Get 10% off your next subscription to any W3C training course</h4>
+    <article role="complementary" data-content="promo" data-state="collapsed">
+      <header>
+        <span title="Close" role="presentation"></span>
+        <h2>Get 10% off your next subscription to any W3C training course</h2>
       </header>
-      <p class="b-cut__section b-cut__section_type_main b-cut__section-text b-popup__body">
-        Provide the promotion code &ldquo;<em class="b-promo-code">W3C_Rules</em>&rdquo; during your next subscription.
+      <p>
+        Provide the promotion code &ldquo;<em>W3C_Rules</em>&rdquo; during your next subscription.
       </p>
-    </div>
+    </article>
+    <nav role="navigation">
+      <h2>Menu</h2>
+      <ul>
+        <li><a>Home</a>
+        </li>
+        <li><a href="rooms.html" title="">Rooms</a>
+        </li>
+        <li><a href="prices.html" title="">Prices</a>
+        </li>
+        <li><a href="contact.html" title="">Contact</a>
+        </li>
+        <li><a href="http://en.turismovenezia.it/" title="">Turismo Venezia</a>
+        </li>
+      </ul>
+    </nav>
     <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="js/common.js"></script>
   </body>

@@ -13,7 +13,12 @@
     </script>
     <link rel="stylesheet" media="screen" href="css/main.template_styles.css" />
     <!--[if IE 8 ]>
-	<link rel="stylesheet" media="screen" href="css/main.template_styles.ie8.css" />
+	
+		<style type="text/css">
+			img {width:auto;}
+		</style>
+	
+	
 	<![endif]-->
     <!--[if lt IE 9 ]>
 	<script type="text/javascript" src="js/html5shiv.js"></script>
@@ -21,14 +26,29 @@
   </head>
   <body>
     <header role="banner">
-      <h2>
-			<a href="index.html" title="Go to Home">Canal View B&nbsp;&&nbsp;B</a>
-		</h2>
+      <a href="index.html" title="Go to Home">Canal View B&nbsp;&&nbsp;B</a>
     </header>
+    <main role="main">
+      <h1>Our Prices</h1>
+      <dl>
+        <dt>Red Room</dt>
+        <dd>€ 120 (double)</dd>
+        <dt>White Room</dt>
+        <dd>€ 120 (single)</dd>
+        <dt>Golden Room</dt>
+        <dd>€ 120 (double)</dd>
+        <dd>€ 150 (triple)</dd>
+      </dl>
+    </main>
+    <aside role="complementary">
+      <h2>Reviews</h2>
+      <blockquote>
+        <p>We&nbsp;had a&nbsp;fantastic stay at&nbsp;Canal View B&amp;B for our honeymoon. The staff was great, really helpful and the room was absolutely lovely.</p>
+      </blockquote>
+      <cite>Lea Frost</cite>
+    </aside>
     <nav role="navigation">
-      <header>
-        <h3>Menu</h3>
-      </header>
+      <h2>Menu</h2>
       <ul>
         <li><a href="index.html" title="">Home</a>
         </li>
@@ -42,46 +62,5 @@
         </li>
       </ul>
     </nav>
-    <main role="main">
-      <h1>Our Prices</h1>
-      <table class="b-table b-table_viewtype_gray b-table_content_prices">
-        <caption class="b-table__caption">Our Prices</caption>
-        <thead class="b-table-group b-table-group_type_heading">
-          <tr class="b-table-row">
-            <th class="b-table-cell b-table-cell_type_heading"></th>
-            <th class="b-table-cell b-table-cell_type_heading" scope="col">Single</th>
-            <th class="b-table-cell b-table-cell_type_heading" scope="col">Double</th>
-            <th class="b-table-cell b-table-cell_type_heading" scope="col">Triple</th>
-          </tr>
-        </thead>
-        <tbody class="b-table-group b-table-group_type_content">
-          <tr class="b-table-row">
-            <th class="b-table-cell b-table-cell_type_heading b-table-cell_content_room" scope="row">Red Room</th>
-            <td class="b-table-cell"></td>
-            <td class="b-table-cell">€ 120</td>
-            <td class="b-table-cell"></td>
-          </tr>
-          <tr class="b-table-row">
-            <th class="b-table-cell b-table-cell_type_heading b-table-cell_content_room" scope="row">White Room</th>
-            <td class="b-table-cell">€ 90</td>
-            <td class="b-table-cell"></td>
-            <td class="b-table-cell"></td>
-          </tr>
-          <tr class="b-table-row">
-            <th class="b-table-cell b-table-cell_type_heading b-table-cell_content_room" scope="row">Golden Room</th>
-            <td class="b-table-cell"></td>
-            <td class="b-table-cell">€ 120</td>
-            <td class="b-table-cell">€ 150</td>
-          </tr>
-        </tbody>
-      </table>
-    </main>
-    <aside role="complementary">
-      <h2>Reviews</h2>
-      <blockquote>
-        <p>We&nbsp;had a&nbsp;fantastic stay at&nbsp;Canal View B&amp;B for our honeymoon. The staff was great, really helpful and the room was absolutely lovely.</p>
-      </blockquote>
-      <cite>Lea Frost</cite>
-    </aside>
   </body>
 </html>

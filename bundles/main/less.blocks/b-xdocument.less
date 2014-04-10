@@ -1,6 +1,6 @@
 html {
-	min-width:1000px;
-	height:100%;
+//	min-width:1000px;
+	min-height:100%;
 
 	background:#0d5a92 url('../images/b-page-background.jpg') no-repeat;
 
@@ -12,17 +12,22 @@ html {
 	color:#fff;
 }
 body {
-	min-height:100%;
 	margin:auto;
 	max-width:998px;
 
 	position:relative;
-	padding:0 0 36px;
+	padding:0 0 2.25em;
+
+	min-height:100%;
 
 	font:16px/26px @default-font-family;
+
 	.clearfix();
 
 	#nojs & {
-		padding-bottom:136px;
+
+		&[data-page='index'] {
+			padding-bottom:136px;
+		}
 	}
 }

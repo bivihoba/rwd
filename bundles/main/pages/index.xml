@@ -12,14 +12,21 @@
 	<templates>
 		<t:xtitle><cdata><![CDATA[Canal View B & B]]></cdata></t:xtitle>
 
-		<t:logo>
-			<b:logo><cdata><![CDATA[Canal View B&nbsp;&&nbsp;B]]></cdata></b:logo>
-		</t:logo>
+		<!--<t:logo>-->
+			<!--<b:logo><cdata><![CDATA[Canal View B&nbsp;&&nbsp;B]]></cdata></b:logo>-->
+		<!--</t:logo>-->
 
-		<p:page>
+		<t:page>
 			<a:params noblock="true" x:data-page="index"/>
+			<b:header>
+				<p:logo/>
+			</b:header>
+			<p:main/>
+			<p:sidebar/>
 			<p:popup_content_sticky-subscription/>
-		</p:page>
+			<p:section_content_main-menu/>
+			<p:content/>
+		</t:page>
 
 		<p:page-title><cdata><![CDATA[LOW COST ROMANTIC&nbsp;VENICE]]></cdata></p:page-title>
 
@@ -50,39 +57,28 @@
 		</p:section_content_reviews>
 
 		<t:popup_content_sticky-subscription>
-			<b:popup x:role="complementary">
-				<m:viewtype val="standard-sticky-bottom-edge"/>
-				<m:content val="sticky-subscription"/>
-				<m:state val="opened"/>
-
+			<b:popup tag="article" x:role="complementary" noclass="true">
+				<m:viewtype val="standard-sticky-bottom-edge" x:data-content="promo"/>
+				<m:state val="opened" x:data-state="collapsed"/>
 				<a:cut>
 					<m:type val="addition"/>
 					<m:state val="collapsed"/>
 					<m:viewtype val="standard-sticky-bottom-edge"/>
 					</a:cut>
-				<e:section block="cut" tag="header">
+				<e:section block="cut" tag="header" noclass="true">
 					<m:type val="preview"/>
 					<a:header block-of="popup"/>
-					<a:cut__action>
-						<m:type val="dual"/>
-						</a:cut__action>
-					<a:link>
-						<m:type val="pseudo"/>
-						<m:type val="t"/>
-						<m:viewtype val="context"/>
-						<m:action val="expand"/>
-						</a:link>
-					<e:close tag="span" x:role="presentation">x</e:close>
-					<e:title tag="h4">
+					<e:close tag="span" x:title="Close" x:role="presentation" noclass="true"></e:close>
+					<e:title tag="h2" noclass="true">
 						Get 10% off your next subscription to any W3C training course
 					</e:title>
 
 				</e:section>
-				<e:section block="cut" tag="p">
+				<e:section block="cut" tag="p" noclass="true">
 					<m:type val="main"/>
 					<a:section-text block-of="cut"/>
 					<a:body block-of="popup"/>
-						Provide the promotion code <cdata><![CDATA[&ldquo;]]></cdata><b:promo-code tag="em">W3C_Rules</b:promo-code><cdata><![CDATA[&rdquo;]]></cdata> during your next subscription.
+						Provide the promotion code <cdata><![CDATA[&ldquo;]]></cdata><b:promo-code tag="em" noclass="true">W3C_Rules</b:promo-code><cdata><![CDATA[&rdquo;]]></cdata> during your next subscription.
 				</e:section>
 			</b:popup>
 		</t:popup_content_sticky-subscription>
@@ -100,4 +96,3 @@
 	</page-canvas>
 
 </page>
-

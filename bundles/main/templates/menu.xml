@@ -3,14 +3,14 @@
 	<t:section_content_main-menu>
 		<b:section tag="nav" x:role="navigation" noclass="true">
 			<m:content val="main-menu"/>
-			<e:header>
+			<!--<e:header>-->
 				<e:title>
 					<a:heading>
-						<m:level val="3"/>
+						<m:level val="2"/>
 						</a:heading>
 					<cdata>Menu</cdata>
 				</e:title>
-			</e:header>
+			<!--</e:header>-->
 			<p:menu_content_main/>
 		</b:section>
 	</t:section_content_main-menu>

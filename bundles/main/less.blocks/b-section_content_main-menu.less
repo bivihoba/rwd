@@ -9,43 +9,44 @@ nav {
 	background:rgba(0,0,0,.2);
 
 	left:0;
-	width:200px;
+	width:20.1%;
 
-	header {
-		position:relative;
-
-		margin:0 0 42px;
-		padding:7px 0;
-
-		background:#da622e;
-
-		&:after {
-			content:'';
-
-			display:block;
-			height:40px;
-
-			position:absolute;
-			top:100%;
-			left:0;
-			right:0;
-
-			margin:1px 0 0;
-
-			background:#da622e;
-		}
+		h2,
 		h3 {
 			display:block;
 
-			padding:0 20px;
-			margin:0;
 
 			font:bold 16px/26px @default-font-family;
 			text-transform:uppercase;
 
 			color:#fff;
+
+
+
+			position:relative;
+
+			margin:0 0 42px;
+			padding:7px (20 / 16 + 0em);
+
+			background:#da622e;
+
+			&:after {
+				content:'';
+
+				display:block;
+				height:40px;
+//				height:2.5em;
+
+				position:absolute;
+				top:100%;
+				left:0;
+				right:0;
+
+				margin:1px 0 0;
+
+				background:#da622e;
+			}
 		}
-	}
 
 	:link,
 	:visited {

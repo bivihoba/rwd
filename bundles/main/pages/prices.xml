@@ -14,7 +14,19 @@
 		<p:page-title><cdata><![CDATA[Our Prices]]></cdata></p:page-title>
 
 		<p:main>
-			<p:table_content_prices/>
+
+			<cdata>
+			<![CDATA[
+				<dl>
+					<dt>Red Room</dt>
+					<dd>€ 120 (double)</dd>
+					<dt>White Room</dt>
+					<dd>€ 120 (single)</dd>
+					<dt>Golden Room</dt>
+					<dd>€ 120 (double)</dd>
+					<dd>€ 150 (triple)</dd>
+				</dl>
+			]]></cdata>
 		</p:main>
 
 		<p:section_content_reviews>
@@ -28,80 +40,6 @@
 			</b:review>
 			<b:review-author>Lea Frost</b:review-author>
 		</p:section_content_reviews>
-
-		<t:table_content_prices>
-			<b:table>
-				<m:viewtype val="gray"/>
-				<m:content val="prices"/>
-				<e:caption>Our Prices</e:caption>
-				<b:table-group>
-					<m:type val="heading"/>
-					<b:table-row>
-						<b:table-cell>
-							<m:type val="heading"/>
-						</b:table-cell>
-						<b:table-cell x:scope="col">
-							<m:type val="heading"/>
-							Single
-						</b:table-cell>
-						<b:table-cell x:scope="col">
-							<m:type val="heading"/>
-							Double
-						</b:table-cell>
-						<b:table-cell x:scope="col">
-							<m:type val="heading"/>
-							Triple
-						</b:table-cell>
-					</b:table-row>
-				</b:table-group>
-				<b:table-group>
-					<m:type val="content"/>
-					<b:table-row>
-						<b:table-cell>
-							<m:type val="heading" x:scope="row"/>
-							<m:content val="room"/>
-							Red Room
-						</b:table-cell>
-						<b:table-cell>
-						</b:table-cell>
-						<b:table-cell>
-							€ 120
-						</b:table-cell>
-						<b:table-cell>
-						</b:table-cell>
-					</b:table-row>
-					<b:table-row>
-						<b:table-cell>
-							<m:type val="heading" x:scope="row"/>
-							<m:content val="room"/>
-							White Room
-						</b:table-cell>
-						<b:table-cell>
-							€ 90
-						</b:table-cell>
-						<b:table-cell>
-						</b:table-cell>
-						<b:table-cell>
-						</b:table-cell>
-					</b:table-row>
-					<b:table-row>
-						<b:table-cell>
-							<m:type val="heading" x:scope="row"/>
-							<m:content val="room"/>
-							Golden Room
-						</b:table-cell>
-						<b:table-cell>
-						</b:table-cell>
-						<b:table-cell>
-							€ 120
-						</b:table-cell>
-						<b:table-cell>
-							€ 150
-						</b:table-cell>
-					</b:table-row>
-				</b:table-group>
-			</b:table>
-		</t:table_content_prices>
 
 	</templates>
 

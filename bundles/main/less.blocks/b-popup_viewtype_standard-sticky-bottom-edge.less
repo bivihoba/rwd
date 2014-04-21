@@ -38,10 +38,11 @@ article {
 	}
 
 	header {
-		height:18px;
+//		height:18px;
 
-		margin-bottom:-50px;
-		top:-50px;
+		margin:0 1em;
+//		margin:0 1em -50px;
+//		top:-50px;
 
 		position:relative;
 
@@ -49,6 +50,7 @@ article {
 		vertical-align:bottom;
 
 		padding:(12 / 16 + 0em) 2%;
+		padding:(12 / 16 + 0em) 6%;
 
 		text-align:left;
 
@@ -138,5 +140,13 @@ article {
 		background:rgba(0, 0, 0, 0.9);
 		color:#fff;
 //			border-top:1px solid #b1b1b1;
+	}
+	@media all and (min-width:37.5em) {
+		header {
+			height:18px;
+			margin-bottom:-50px;
+			top:-50px;
+			padding:(12 / 16 + 0em) 2%;
+		}
 	}
 }

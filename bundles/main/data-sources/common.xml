@@ -2,9 +2,9 @@
 	<menu_content_main>
 		<list>
 			<item handle="index" url="main__index.html">Home</item>
-			<item handle="rooms" url="main__rooms.html">Rooms</item>
-			<item handle="prices" url="main__prices.html">Prices</item>
-			<item handle="contact" url="main__contact.html">Contact</item>
+			<item handle="rooms" url="inner__rooms.html">Rooms</item>
+			<item handle="prices" url="inner__prices.html">Prices</item>
+			<item handle="contact" url="inner__contact.html">Contact</item>
 			<item url="http://en.turismovenezia.it/">Turismo Venezia</item>
 		</list>
 	</menu_content_main>

@@ -5,3 +5,30 @@ img {
 p {
 	margin:0 0 1em;
 }
+
+figure {
+	margin:0;
+	padding:0;
+	position:relative;
+
+	@media all and (min-width:37.5em) {
+		height:0;
+		padding-bottom:60%;
+		margin-bottom:3%;
+		overflow:hidden;
+
+		img {
+			transform:scale(2);
+			transform-origin:40% 0 0;
+		}
+	}
+	@media all and (min-width:50em) {
+		height:auto;
+		padding-bottom:0;
+
+		img {
+			position:static;
+			transform:none;
+		}
+	}
+}

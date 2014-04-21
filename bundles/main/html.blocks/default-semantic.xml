@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?><default-semantic xmlns:a="http://slcf/templates/settings/bem-scheme/additional" xmlns:b="http://slcf/templates/settings/bem-scheme/block" xmlns:d="http://slcf/templates/settings/bem-scheme/data" xmlns:e="http://slcf/templates/settings/bem-scheme/element" xmlns:p="http://slcf/templates/settings/bem-scheme/pointer" xmlns:m="http://slcf/templates/settings/bem-scheme/modification" xmlns:t="http://slcf/templates/settings/bem-scheme/template" xmlns:x="http://slcf/templates/settings/bem-scheme/xhtml" xmlns:un="http://slcf/templates/settings/bem-scheme/unknown-namespace" xmlns:alxc="http://slcf/templates/settings/bem-scheme/additional-legacy-xhtml-class">
 
 	<b:xdocument tag="html" x:lang="en" x:id="nojs" noclass="true"/>
-	<!--<m:content val="viewport" block="xmeta" x:name="viewport" x:content="width=device-width, initial-scale=1.0"/>-->
+	<m:content val="viewport" block="xmeta" x:name="viewport" x:content="width=device-width, initial-scale=1.0"/>
 
 	<m:content val="description" block="xmeta" x:name="description" x:content="Canal View B &amp; B"/>
 	<m:content val="keywords" block="xmeta" x:name="keywords" x:content="Canal View B &amp; B"/>

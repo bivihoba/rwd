@@ -1,12 +1,25 @@
 nav ul {
-	display:block;
+	display:inline-block;
+	vertical-align:top;
 	.list-reset();
 
+	padding:1em;
+	margin:0 0 -1em;
+	text-align:center;
+
 	li {
-		margin:1px 0 0;
+		display:inline-block;
+		vertical-align:top;
+
+		margin:0 0.45em 1em;
 
 		background:#da622e;
 		color:#000;
+
+		.undo-font-reset();
+//		font-size:0.75em;
+
+		text-align:left;
 
 		&[data-selected="true"] {
 
@@ -22,6 +35,7 @@ nav ul {
 	a {
 		display:block;
 		padding:7px (20 / 16 + 0em);
+		padding:0.25em ((20 / 16)/2 + 0em);
 
 		outline:none;
 	}
@@ -34,6 +48,27 @@ nav ul {
 			background:#dd7243;
 			background:rgba(255,255,255,.1);
 			color:#000;
+		}
+	}
+	@media all and (min-width:37.5em) {
+		li {
+			&:first-child {
+				margin-left:0;
+			}
+		}
+	}
+	@media all and (min-width:50em) {
+		display:block;
+		padding:0;
+
+		li {
+			display:block;
+			margin:1px 0 0;
+		}
+	}
+	@media all and (min-width:64em) {
+		a {
+			padding:7px (20 / 16 + 0em);
 		}
 	}
 }

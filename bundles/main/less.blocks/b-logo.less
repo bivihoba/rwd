@@ -1,13 +1,38 @@
 header[role="banner"] :link,
 header[role="banner"] :visited {
 	display:block;
-	padding:0;
-	margin:29px 0;
+	padding:9% 0;
 
 	color:#fff;
 
-	font:bold 6.25em/1 @normal-font-family, @alt2-font-family;
+	font:bold 1.25em/1 @normal-font-family, @alt2-font-family;
 	text-transform: uppercase;
 	text-align: center;
+	background:rgba(0,0,0,.4);
 
+	@media all and (min-width:20em) {
+		font-size:1.75em;
+	}
+	@media all and (min-width:30em) {
+		font-size:2.75em;
+	}
+	@media all and (min-width:37.5em) {
+		font-size:3.25em;
+		padding-top:6%;
+		padding-bottom:6%;
+		background:none;
+
+	}
+	@media all and (min-width:50em) {
+		font-size:4.25em;
+	}
+	@media all and (min-width:64em) {
+		font-size:5.25em;
+		padding-top:3%;
+		padding-bottom:3%;
+		text-shadow:1px 1px #0d5a92;
+	}
+	@media all and (min-width:80em) {
+		font-size:6.25em;
+	}
 }

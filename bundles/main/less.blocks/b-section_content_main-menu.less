@@ -2,33 +2,63 @@ nav {
 	display:block;
 	position:relative;
 
-	float:left;
+	background:rgba(0,0,0,.4);
+	margin:0;
+	text-align:center;
 
-	margin:0 -100% 0 0;
+		h2 {
+			display:inline-block;
+			vertical-align:top;
 
-	background:rgba(0,0,0,.2);
-
-	left:0;
-	width:20.1%;
-
-		h2,
-		h3 {
-			display:block;
-
-
-			font:bold 16px/26px @default-font-family;
+			font:bold 1em/1.625 @default-font-family;
 			text-transform:uppercase;
 
 			color:#fff;
 
+//			position:relative;
 
-
-			position:relative;
-
-			margin:0 0 42px;
 			padding:7px (20 / 16 + 0em);
 
 			background:#da622e;
+			
+			position:fixed;
+			top:-9999px;
+			left:-9999px;
+
+		}
+
+	:link,
+	:visited {
+		color:#fff;
+
+		&:focus,
+		&:hover {
+			color:@color--b-link_state_hover;
+		}
+	}
+
+	@media all and (min-width:37.5em) {
+		text-align:left;
+		margin-bottom:1em;
+//		background: rgba(255, 100, 50, 0.20);
+	}
+	@media all and (min-width:50em) {
+
+		float:left;
+
+		margin:0 -100% 0 0;
+
+		left:0;
+		width:20.1%;
+
+
+		h2 {
+			display:block;
+
+			margin:0 0 42px;
+			position:relative;
+			top:auto;
+			left:auto;
 
 			&:after {
 				content:'';
@@ -47,16 +77,6 @@ nav {
 				background:#da622e;
 			}
 		}
-
-	:link,
-	:visited {
-		color:#fff;
-
-		&:focus,
-		&:hover {
-			color:@color--b-link_state_hover;
-		}
 	}
 }
-
 

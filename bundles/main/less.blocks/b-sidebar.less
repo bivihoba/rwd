@@ -2,14 +2,27 @@ aside {
 	display:block;
 	position:relative;
 
-	float:left;
-
-	margin:0 -100% 0 0;
-	padding:1.8% 1.1%;
+	padding:5% 10% 4.25em;
 
 	background-color:#999;
 	color:#fff;
 
-	left:83%;
-	width:14.8%;
+	@media all and (min-width:37.5em) {
+		float:left;
+		margin:0 -100% 0 0;
+
+		left:64%;
+		width:26%;
+
+
+		padding:4% 4% 4%;
+	}
+
+	@media all and (min-width:50em) {
+		left:83%;
+		width:14.8%;
+
+		padding:1.8% 1.1%;
+	}
+
 }

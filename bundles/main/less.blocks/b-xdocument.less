@@ -2,32 +2,55 @@ html {
 //	min-width:1000px;
 	min-height:100%;
 
-	background:#0d5a92 url('../images/b-page-background.jpg') no-repeat;
+	background:#fdfdfd;
 
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	background-size:cover;
+	background-image:url('../images/b-page-background3.jpg');
+	background-repeat:no-repeat;
+	background-position:right top;
+	-webkit-background-size:100% auto;
+	-moz-background-size:100% auto;
+	-o-background-size:100% auto;
+	background-size:100% auto;
 
 	color:#fff;
+	@media all and (min-width:50em) {
+
+		background-color:#0d5a92;
+//		background-color:#004f8a;
+		background-image:url('../images/b-page-background-fc.jpg');
+		background-position:center bottom;
+
+
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		-o-background-size:cover;
+		background-size:cover;
+	}
 }
 body {
 	margin:auto;
 	max-width:998px;
 
 	position:relative;
-	padding:0 0 2.25em;
+	padding:0;
+//	padding:0 0 2.25em;
 
 	min-height:100%;
 
-	font:16px/26px @default-font-family;
+	font:100%/1.625 @default-font-family;
 
 	.clearfix();
 
 	#nojs & {
 
 		&[data-page='index'] {
-			padding-bottom:136px;
+			padding-bottom:8.5em;
 		}
+	}
+	@media all and (min-width:37.5em) {
+		background-color:rgba(0,0,0,.4);
+	}
+	@media all and (min-width:50em) {
+		background-color:transparent;
 	}
 }

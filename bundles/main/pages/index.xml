@@ -13,7 +13,7 @@
 		<t:xtitle><cdata><![CDATA[Canal View B & B]]></cdata></t:xtitle>
 
 		<!--<t:logo>-->
-			<!--<b:logo><cdata><![CDATA[Canal View B&nbsp;&&nbsp;B]]></cdata></b:logo>-->
+			<!--<b:logo><cdata><![CDATA[Canal View B & B]]></cdata></b:logo>-->
 		<!--</t:logo>-->
 
 		<t:page>
@@ -21,25 +21,29 @@
 			<b:header>
 				<p:logo/>
 			</b:header>
+			<p:section_content_main-menu/>
 			<p:main/>
 			<p:sidebar/>
 			<p:popup_content_sticky-subscription/>
-			<p:section_content_main-menu/>
 			<p:content/>
+			<b:page-background tag="span" x:role="presentation"/>
 		</t:page>
 
-		<p:page-title><cdata><![CDATA[LOW COST ROMANTIC&nbsp;VENICE]]></cdata></p:page-title>
+		<p:page-title><cdata><![CDATA[LOW COST ROMANTIC VENICE]]></cdata></p:page-title>
 
 		<p:main>
 			<cdata>
 				<![CDATA[
-				<p>Our Bed and Breakfast is&nbsp;located in&nbsp;a&nbsp;typical Venetian area, on&nbsp;the second floor of&nbsp;a&nbsp;Venetian palace,
-				with private entrance and canal view, close to&nbsp;San Marco Square.</p>
+				<p>Our Bed and Breakfast is located in a typical Venetian area, on the second floor of a Venetian palace,
+				with private entrance and canal view, close to San Marco Square.</p>
 
-				<p>The neighbourhood is&nbsp;very beautiful and characteristic, the house is&nbsp;just a&nbsp;footstep away from the most important monuments, churches and shops,
+				<p>The neighbourhood is very beautiful and characteristic, the house is just a footstep away from the most important monuments, churches and shops,
 				with restaurants, pizzerias and bars around the corner.</p>
 
-				<p>Take a&nbsp;look at&nbsp;our <a href="main__rooms.html">comfortable and elegant rooms</a>. Each bedroom has a&nbsp;seating area and balcony overlooking the canal.</p>
+				<figure><img src="images/b-ill__image.jpg" alt="Canal View"/></figure>
+
+
+				<p>Take a look at our <a href="main__rooms.html">comfortable and elegant rooms</a>. Each bedroom has a seating area and balcony overlooking the canal.</p>
 				]]>
 			</cdata>
 		</p:main>
@@ -48,8 +52,8 @@
 			<b:review>
 				<cdata>
 					<![CDATA[
-					<p>Thank you very much for a&nbsp;lovely stay&nbsp;&mdash; a&nbsp;great room a&nbsp;friendly host,
-					 and a&nbsp;great breakfast. Wish we&nbsp;could stay here for longer than just one day! Thank you.</p>
+					<p>Thank you very much for a lovely stay&nbsp;&mdash; a great room a friendly host,
+					 and a great breakfast. Wish we could stay here for longer than just one day! Thank you.</p>
 					]]>
 				</cdata>
 			</b:review>

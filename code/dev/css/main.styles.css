@@ -10,40 +10,6 @@ img {
 p {
   margin: 0 0 1em;
 }
-dl {
-  margin: 0 0 1em;
-}
-dl dt {
-  display: block;
-  font-weight: bold;
-}
-dl dd {
-  display: block;
-  margin: 0;
-  padding: 0 0 0 1em;
-}
-fieldset {
-  margin: 0;
-  paddinG: 0;
-  border: 0 none;
-}
-legend {
-  display: none;
-}
-form {
-  line-height: 1;
-}
-input[type="reset"]::-moz-focus-inner,
-input[type="submit"]::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-  margin: 0;
-}
-input[type="text"],
-input[type="email"],
-textarea {
-  width: 100%;
-}
 h2 {
   margin: 0 0 0.8em;
   color: #166ba1;
@@ -256,62 +222,6 @@ article p {
   background: #333;
   background: rgba(0, 0, 0, 0.9);
   color: #fff;
-}
-form ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-form ul dl {
-  margin: 0;
-}
-form ul dl:after {
-  content: "";
-  clear: both;
-  display: block;
-  height: 0;
-  font: 0/0 a;
-  visibility: hidden;
-}
-form ul dt {
-  float: left;
-  line-height: 1;
-  margin: 0 -100% 0 0;
-  position: relative;
-  width: 146px;
-  font: 0px/0 'softline', a;
-}
-form ul dt span,
-form ul dt label {
-  display: inline-block;
-  vertical-align: top;
-  font: bold 16px/20px 'Lucida Sans Unicode', 'Lucida Grande', Verdana, Helvetica, Arial, sans-serif;
-}
-form ul dd {
-  margin: 0;
-  margin-left: 152px;
-  padding: 0;
-  max-width: 300px;
-  text-align: left;
-}
-form ul li {
-  clear: both;
-  padding-bottom: 8px;
-}
-form ul li:last-child:after {
-  content: "";
-  clear: both;
-  display: block;
-  height: 0;
-  font: 0/0 a;
-  visibility: hidden;
-}
-form ul li:last-child dl {
-  float: left;
-  margin-right: -100%;
-}
-form ul li:last-child dl + dl dd {
-  margin-left: 0;
 }
 nav ul {
   display: block;

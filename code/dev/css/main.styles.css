@@ -23,7 +23,11 @@ figure {
     overflow: hidden;
   }
   figure img {
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
     transform: scale(2);
+    -webkit-transform-origin: 40% 0 0;
+    -ms-transform-origin: 40% 0 0;
     transform-origin: 40% 0 0;
   }
 }
@@ -34,6 +38,8 @@ figure {
   }
   figure img {
     position: static;
+    -webkit-transform: none;
+    -ms-transform: none;
     transform: none;
   }
 }
@@ -123,7 +129,7 @@ main h1 {
 @media all and (min-width: 20em) {
   main {
     font-size: 1em;
-    line-height: 1.308;
+    line-height: 1.625;
   }
   main h1 {
     font-size: 1em;
@@ -149,7 +155,7 @@ main h1 {
 @media all and (min-width: 45em) {
   main {
     font-size: 1em;
-    line-height: 1.308;
+    line-height: 1.625;
   }
   main h1 {
     font-size: 1em;
@@ -162,6 +168,9 @@ main h1 {
     left: 22%;
     width: 54.9%;
     min-height: 234px;
+  }
+  main figure {
+    margin-bottom: 0;
   }
   main img {
     position: fixed;
@@ -227,8 +236,6 @@ html {
   background-repeat: no-repeat;
   background-position: right top;
   -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  -o-background-size: 100% auto;
   background-size: 100% auto;
   color: #fff;
 }
@@ -238,8 +245,6 @@ html {
     background-image: url('../images/b-page-background-fc.jpg');
     background-position: center bottom;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
   }
 }

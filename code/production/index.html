@@ -44,13 +44,10 @@
         <li>
           <a href="inner__contact.html" title="">Contact</a>
         </li>
-        <li>
-          <a href="http://en.turismovenezia.it/" title="">Turismo Venezia</a>
-        </li>
       </ul>
     </nav>
     <main role="main">
-      <h1>LOW COST ROMANTIC VENICE</h1>
+      <h1>Low Cost Romantic Venice</h1>
       <p>Our Bed and Breakfast is located in a typical Venetian area, on the second floor of a Venetian palace, with private entrance and canal view, close to San Marco Square.</p>
       <p>The neighbourhood is very beautiful and characteristic, the house is just a footstep away from the most important monuments, churches and shops, with restaurants, pizzerias and bars around the corner.</p>
       <figure>
@@ -65,143 +62,27 @@
       </blockquote>
       <cite>Paul Lawson</cite>
     </aside>
+    <footer>
+      <nav role="navigation">
+        <ul>
+          <li>
+            <a href="#" title="">Conditions</a>
+          </li>
+          <li>
+            <a href="http://en.turismovenezia.it/" title="">Turismo Venezia</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
     <article role="complementary" data-content="promo" data-state="collapsed">
       <header>
-        <span title="Close" role="presentation"></span>
+        <span title="Close" role="presentation">Close</span>
         <h2>Get 10% off your next subscription to any W3C training course</h2>
       </header>
       <p>
         Provide the promotion code &ldquo;<em>W3C_Rules</em>&rdquo; during your next subscription.
       </p>
     </article>
-    <span class="b-page-background" role="presentation"></span>
-    <script type="text/javascript">
-    /*!
-     * contentloaded.js
-     *
-     * Author: Diego Perini (diego.perini at gmail.com)
-     * Summary: cross-browser wrapper for DOMContentLoaded
-     * Updated: 20101020
-     * License: MIT
-     * Version: 1.2
-     *
-     * URL:
-     * http://javascript.nwbox.com/ContentLoaded/
-     * http://javascript.nwbox.com/ContentLoaded/MIT-LICENSE
-     *
-     */
-     // @win window reference
-     // @fn function reference
-    function contentLoaded(win, fn)
-    {
-      var done = false,
-        top = true,
-        doc = win.document,
-        root = doc.documentElement,
-        add = doc.addEventListener ? 'addEventListener' : 'attachEvent',
-        rem = doc.addEventListener ? 'removeEventListener' : 'detachEvent',
-        pre = doc.addEventListener ? '' : 'on',
-        init = function(e)
-        {
-          if (e.type == 'readystatechange' && doc.readyState != 'complete') return;
-          (e.type == 'load' ? win : doc)[rem](pre + e.type, init, false);
-          if (!done && (done = true)) fn.call(win, e.type || e);
-        },
-        poll = function()
-        {
-          try
-          {
-            root.doScroll('left');
-          }
-          catch (e)
-          {
-            setTimeout(poll, 50);
-            return;
-          }
-          init('poll');
-        };
-      if (doc.readyState == 'complete') fn.call(win, 'lazy');
-      else
-      {
-        if (doc.createEventObject && root.doScroll)
-        {
-          try
-          {
-            top = !win.frameElement;
-          }
-          catch (e)
-          {}
-          if (top) poll();
-        }
-        doc[add](pre + 'DOMContentLoaded', init, false);
-        doc[add](pre + 'readystatechange', init, false);
-        win[add](pre + 'load', init, false);
-      }
-    }
-    contentLoaded(window,
-      function(e)
-      {
-        var aSpan = document.getElementsByTagName('span'),
-          closeButton;
-        for (var i = 0; i < aSpan.length; i++)
-        {
-          if (aSpan[i].getAttribute('title'))
-          {
-            var title = aSpan[i].getAttribute('title');
-            if (title === 'Close')
-            {
-              closeButton = aSpan[i];
-              break;
-            }
-          }
-        }
-        var articles = document.getElementsByTagName('article'),
-          promo = articles[0],
-          promoState = promo.getAttribute('data-state');
-        if (promo.addEventListener)
-        {
-          promo.addEventListener('click', function(e)
-          {
-            if (promoState == 'collapsed')
-            {
-              promo.setAttribute('data-state', 'opened');
-              promoState = 'opened';
-            }
-            else
-            {
-              promo.setAttribute('data-state', 'collapsed');
-              promoState = 'collapsed';
-            }
-          }, false);
-          closeButton.addEventListener('click', function(e)
-          {
-            e.stopPropagation();
-            closeButton.parentNode.parentNode.setAttribute('data-state', 'off');
-          }, false);
-        }
-        else
-        {
-          promo.attachEvent('onclick', function(e)
-          {
-            if (promoState == 'collapsed')
-            {
-              promo.setAttribute('data-state', 'opened');
-              promoState = 'opened';
-            }
-            else
-            {
-              promo.setAttribute('data-state', 'collapsed');
-              promoState = 'collapsed';
-            }
-          });
-          closeButton.attachEvent('onclick', function(e)
-          {
-            e.cancelBubble = true;
-            closeButton.parentNode.parentNode.setAttribute('data-state', 'off');
-          });
-        }
-      }
-    );
-    </script>
+    <script type="text/javascript" src="js/common.js"></script>
   </body>
 </html>

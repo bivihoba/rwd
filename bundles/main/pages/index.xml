@@ -24,9 +24,10 @@
 			<p:section_content_main-menu/>
 			<p:main/>
 			<p:sidebar/>
+			<p:footer/>
 			<p:popup_content_sticky-subscription/>
 			<p:content/>
-			<b:page-background tag="span" x:role="presentation"/>
+			<!--<b:page-background tag="span" x:role="presentation"/>-->
 		</t:page>
 
 		<p:page-title><cdata><![CDATA[Low Cost Romantic Venice]]></cdata></p:page-title>
@@ -85,6 +86,21 @@
 				</e:section>
 			</b:popup>
 		</t:popup_content_sticky-subscription>
+
+		<t:footer>
+			<b:footer role="footer" tag="footer" noclass="true">
+				<b:menu noclass="true">
+					<e:list tag="ul" noclass="true">
+						<e:item>
+							<e:item-text><a:link x:href="#"/>Conditions</e:item-text>
+						</e:item>
+						<e:item>
+							<e:item-text><a:link x:href="http://en.turismovenezia.it/"/>Turismo Venezia</e:item-text>
+						</e:item>
+					</e:list>
+				</b:menu>
+			</b:footer>
+		</t:footer>
 
 		<p:javascript_body>
 			<b:xscript x:src="js/common.js"/>

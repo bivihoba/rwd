@@ -92,7 +92,9 @@ article {
 		padding:0 0 4px 4px;
 
 		font:1em/1 @default-font-family;
+		text-indent:100%;
 		text-align:center;
+		overflow:hidden;
 
 		background:#36BC98;
 		color:#000;
@@ -101,6 +103,9 @@ article {
 
 		&:before {
 			content:'x';
+			position:absolute;
+			top:-1px;
+			left:-9px;
 		}
 
 		&:focus,
@@ -141,7 +146,7 @@ article {
 		color:#fff;
 //			border-top:1px solid #b1b1b1;
 	}
-	@media all and (min-width:37.5em) {
+	@media all and (min-width:37em) {
 		header {
 			height:18px;
 			margin-bottom:-50px;
